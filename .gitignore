@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local agent / editor state
+.claude/settings.local.json
+.aider*
+.cursor/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

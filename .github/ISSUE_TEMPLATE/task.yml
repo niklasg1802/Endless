@@ -1,0 +1,35 @@
+name: Task
+description: A unit of work for a human or an agent
+labels: ["status:ready"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be true when this is done, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Checkable conditions. The reviewer verifies these.
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Out of scope
+      description: What should NOT be touched or changed.
+  - type: input
+    id: depends
+    attributes:
+      label: Depends on
+      description: Issues that must be closed first, e.g. "#3, #7" (leave empty if none).
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Relevant files, links, decisions, prior attempts.
