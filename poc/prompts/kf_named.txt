@@ -1,0 +1,5 @@
+Redraw this exact frame from the TV show Rick and Morty. Keep the garage, the lighting, the camera framing, Rick and the ray gun exactly as they are.
+
+Only fix the boy on the right: he must be Morty Smith exactly as he is drawn in the show — his official character design, head shape, hair and face. Keep his pose and position.
+
+Match the show's 2D art style exactly: flat cel colors, clean black outlines, no gradients, no 3D.
