@@ -1,0 +1,12 @@
+Edit this frame of a 2D animated adult TV cartoon. Keep the garage, the lighting, the camera framing, the old scientist and his ray gun exactly as they are.
+
+Only redesign the boy on the right, keeping his pose and position:
+- a large, slightly oval head, wider than it is tall, on a small thin body
+- short brown hair drawn as one smooth rounded shape hugging the skull, slightly swept forward, with small uneven tufts at the edge of the forehead and sides; NOT a bowl cut, NOT a mushroom shape
+- no visible eyebrows drawn as shapes, only thin simple eyebrow lines
+- big perfectly round white eyes with tiny black dot pupils, set close together
+- small curved nose line, a wavy nervous mouth line
+- plain yellow short-sleeve t-shirt, blue jeans, white sneakers
+- anxious, uncertain expression
+
+Match the existing art style exactly: flat cel colors, clean thick black outlines, no gradients, no 3D.

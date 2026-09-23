@@ -1,7 +1,7 @@
-"""Generate one clip with MiniMax H3 via OpenRouter's async video API.
+"""Generate one clip via OpenRouter's async video API (default model: MiniMax H3).
 
 Usage:
-    python3 poc/h3_cloud.py <name> <prompt_file> [--duration 8] [--ref image.png ...] [--first-frame image.png]
+    python3 poc/h3_cloud.py <name> <prompt_file> [--duration 8] [--ref image.png ...] [--first-frame image.png] [--model id] [--resolution 720p]
 
 Reads OPENROUTER_API_KEY from .env. Writes poc/out/<name>.mp4 and <name>.json (job metadata).
 """
@@ -56,16 +56,20 @@ def main():
     p.add_argument("--duration", type=int, default=8)
     p.add_argument("--ref", action="append", default=[], help="reference image (reference-to-video)")
     p.add_argument("--first-frame", help="exact first frame (image-to-video)")
+    p.add_argument("--model", default=MODEL)
+    p.add_argument("--resolution", help="omit to use the model default")
     args = p.parse_args()
 
     key = api_key()
     payload = {
-        "model": MODEL,
+        "model": args.model,
         "prompt": pathlib.Path(args.prompt_file).read_text().strip(),
         "duration": args.duration,
         "aspect_ratio": "16:9",
         "generate_audio": True,
     }
+    if args.resolution:
+        payload["resolution"] = args.resolution
     if args.ref:
         payload["input_references"] = [image_part(r) for r in args.ref]
     if args.first_frame:
