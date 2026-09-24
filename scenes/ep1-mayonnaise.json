@@ -1,0 +1,67 @@
+{
+  "title": "Episode 1 - The Mayonnaise Dimension",
+  "backend": "local",
+  "width": 864,
+  "height": 480,
+  "seed": 4021,
+  "image_size": 1024,
+
+  "style_block": "2D animated adult TV cartoon, American sci-fi sitcom style: flat cel colors, clean thick black outlines, minimal shading, big round white eyes with small black pupils, cutout-style character animation, hand-drawn 2D cels. No gradients, no 3D, no digital painting, no text, no watermark, no letterboxing.",
+
+  "characters": {
+    "scientist": {
+      "sheet_prompt": "A tall, very lanky old scientist in his 70s. Spiky pale blue-grey hair sticking up in messy spikes, one single thick unibrow straight across both eyes, large round white eyes with tiny black dot pupils, a long thin face with a pointed chin, a slightly crooked nose. White lab coat over a light blue sweater, brown trousers, black shoes. Hunched, impatient posture. One thin string of drool at the corner of his mouth. Grumpy, bored, arrogant expression.",
+      "sheet": "sheets/scientist.png"
+    },
+    "boy": {
+      "sheet_prompt": "A short 14-year-old boy with a large slightly oval head, wider than it is tall, sitting on a small thin body with narrow shoulders. Short brown hair drawn as one smooth rounded shape hugging the skull, swept slightly forward, with small uneven tufts at the forehead and sides. NOT a bowl cut, NOT a mushroom shape. No eyebrows drawn as solid shapes, only thin simple lines. Big perfectly round white eyes with tiny black dot pupils set close together. Small curved nose line, wavy nervous mouth line. Plain yellow short-sleeve t-shirt, blue jeans, white sneakers. Anxious, worried, uncertain expression.",
+      "sheet": "sheets/boy.png"
+    },
+    "mother": {
+      "sheet_prompt": "A woman in her late 30s with shoulder-length reddish-brown hair, a long oval face, large round white eyes with small black pupils, thin lips, a small pointed nose. Light pink blouse, dark grey skirt, flat shoes. Tired but sharp expression, arms often crossed. She stands with her weight on one hip.",
+      "sheet": "sheets/mother.png"
+    },
+    "sister": {
+      "sheet_prompt": "A tall teenage girl, about 17, with long straight blonde hair past her shoulders, a narrow oval face, large round white eyes with small black pupils, a small upturned nose, a smug half-smile. Cropped turquoise top, dark leggings, white trainers. Phone permanently in one hand. Confident, bored, superior expression.",
+      "sheet": "sheets/sister.png"
+    }
+  },
+
+  "shots": [
+    {
+      "id": "e1s1_breakfast",
+      "characters": ["boy", "mother", "sister"],
+      "seconds": 5,
+      "keyframe_prompt": "A messy family kitchen in the morning, sunlight through a window over the sink, cereal boxes and a coffee pot on a cluttered table. A tired woman with folded arms stands by the counter. A smug teenage girl slouches at the table looking at her phone. A short nervous boy in a yellow t-shirt sits opposite her with an untouched bowl of cereal. Medium shot, static camera, flat TV animation framing.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Static camera, medium shot.\n\nThe tired woman says sharply: \"Sweetie, you are not missing school again.\" The smug girl does not look up from her phone: \"He failed the test anyway.\" The nervous boy shrinks into his chair and stammers: \"Aw geez, I-I-I didn't even study, I was, I was doing the thing with- with the thing.\""
+    },
+    {
+      "id": "e1s2_garage",
+      "characters": ["scientist", "boy"],
+      "seconds": 5,
+      "keyframe_prompt": "The interior of a cluttered suburban garage laboratory at night: a workbench crowded with strange alien gadgets and loose wires, shelves of labelled jars, a greenish fluorescent tube overhead. A tall old scientist in a white lab coat stands at the bench holding a glowing green ray gun, turned toward a short boy in a yellow t-shirt who stands beside him looking nervous. Medium shot, static camera.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Static camera, medium shot.\n\nThe old scientist turns to the boy and says in a raspy, slurring, bored voice, burping loudly in the middle of the sentence: \"Grab your stuff, kid, we're going to a dimension where everything is made of, burp, mayonnaise.\" The boy looks up at him, panicking, and stutters: \"Aw geez, Rick, I-I-I got a math test tomorrow!\""
+    },
+    {
+      "id": "e1s3_portal",
+      "characters": ["scientist", "boy"],
+      "seconds": 5,
+      "keyframe_prompt": "The same cluttered garage laboratory at night, same two characters and same art style. New camera angle: wide shot from the side. A swirling bright green portal glows on the garage wall, throwing green light and long shadows across the room. The old scientist has grabbed the boy by the arm and is pulling him toward the portal, mid-stride, the boy leaning backwards and digging his heels in.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Wide shot from the side.\n\nThe old scientist drags the boy toward the glowing green portal and says impatiently in a raspy voice: \"Come on, it's gonna be quick. In and out, twenty minutes adventure.\" The boy whines: \"Th-that's what you said last time!\" Both leap into the green portal and vanish. The portal swirls, shrinks and snaps shut."
+    },
+    {
+      "id": "e1s4_mayonnaise",
+      "characters": ["scientist", "boy"],
+      "seconds": 5,
+      "keyframe_prompt": "An impossible alien landscape where the ground, the hills, the sky and everything in it are made of pale glossy mayonnaise. Pale yellow-white dunes stretch to the horizon under a creamy overcast sky. The tall old scientist in the white lab coat stands on a mayonnaise ridge looking pleased, arms out. The short boy in the yellow t-shirt stands beside him with his hands on his head in despair. Wide shot, flat 2D animation style.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Wide shot.\n\nThe old scientist spreads his arms wide and announces in a proud raspy voice: \"Behold! The Mayo Dimension!\" The boy looks around in horror and screams: \"I-I-I'm gonna be sick, Rick, everything smells like- like sandwiches!\" The scientist leans down and scoops up a handful of mayonnaise, eating it calmly."
+    },
+    {
+      "id": "e1s5_return",
+      "characters": ["boy", "mother"],
+      "seconds": 5,
+      "keyframe_prompt": "The same messy family kitchen, now in the evening under a warm ceiling light, the table cleared. The short boy in the yellow t-shirt stands in the doorway looking exhausted. The tired woman stands facing him with folded arms, unimpressed. Medium shot, static camera, flat TV animation framing.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Static camera, medium shot.\n\nThe tired woman looks the boy up and down and says flatly: \"Where have you been? You smell like a deli.\" The boy, completely covered in pale mayonnaise stains, stammers: \"I-I-I was at, at Rick's, and there was, and everything was, aw geez.\" He sits down and puts his head on the table. The woman turns away and switches off the light."
+    }
+  ]
+}
