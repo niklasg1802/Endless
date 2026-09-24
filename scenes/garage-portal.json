@@ -1,0 +1,37 @@
+{
+  "title": "Garage Portal Test",
+  "backend": "local",
+  "width": 864,
+  "height": 480,
+  "seed": 101,
+
+  "style_block": "2D animated adult TV cartoon, American sci-fi sitcom style: flat cel colors, clean thick black outlines, minimal shading, big round white eyes with small black pupils, cutout-style character animation. No gradients, no 3D, no text, no watermark.",
+
+  "characters": {
+    "scientist": {
+      "sheet_prompt": "A tall, very lanky old scientist in his 70s with spiky pale blue-grey hair sticking up, a single thick unibrow across both eyes, big round white eyes with tiny black dot pupils, a long thin face, a white lab coat over a light blue sweater, brown trousers and black shoes. Slightly hunched posture. A small drop of drool at the corner of his mouth. Grumpy, bored, confident expression.",
+      "sheet": "sheets/scientist.png"
+    },
+    "boy": {
+      "sheet_prompt": "A short 14-year-old boy with a large slightly oval head, wider than it is tall, on a small thin body. Short brown hair drawn as one smooth rounded shape hugging the skull, slightly swept forward, with small uneven tufts at the forehead and sides; NOT a bowl cut, NOT a mushroom shape. No visible eyebrows drawn as shapes, only thin simple eyebrow lines. Big perfectly round white eyes with tiny black dot pupils set close together. Small curved nose line, wavy nervous mouth line. Plain yellow short-sleeve t-shirt, blue jeans, white sneakers. Anxious, uncertain expression.",
+      "sheet": "sheets/boy.png"
+    }
+  },
+
+  "shots": [
+    {
+      "id": "s1_garage",
+      "characters": ["scientist", "boy"],
+      "seconds": 5,
+      "keyframe_prompt": "Interior of a cluttered suburban garage laboratory at night: a workbench crowded with strange alien gadgets, shelves of jars, a greenish fluorescent light overhead. The tall old scientist in the white lab coat stands at the workbench holding a glowing green ray gun, turned towards the boy. The short boy in the yellow t-shirt stands beside him looking nervous. Medium shot, static camera, TV animation framing.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Static camera, medium shot, cutout-style TV animation.\n\nThe old scientist with spiky pale blue-grey hair and the white lab coat turns to the boy and says in a raspy, slurring, bored voice, burping loudly in the middle of the sentence: \"Grab your stuff, kid, we're going to a dimension where everything is made of — burp — mayonnaise.\"\n\nThe boy in the yellow t-shirt looks nervous and answers stuttering in a high, anxious voice: \"Aw geez, I-I-I got a math test tomorrow!\""
+    },
+    {
+      "id": "s2_portal",
+      "characters": ["scientist", "boy"],
+      "seconds": 5,
+      "keyframe_prompt": "Same cluttered garage laboratory at night, same characters and same art style. New camera angle: wide shot from the side. A swirling bright green portal glows on the garage wall, casting green light across the room. The old scientist in the white lab coat has grabbed the boy in the yellow t-shirt by the arm and is pulling him towards the portal. Both are mid-stride, the boy leaning back and resisting.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Wide shot from the side, cutout-style TV animation.\n\nThe old scientist drags the boy towards the glowing green portal and says impatiently in a raspy voice: \"Come on, it's gonna be quick. In and out, twenty minutes adventure.\" The boy whines: \"Th-that's what you said last time!\" Both jump into the green portal and vanish. The portal swirls and closes."
+    }
+  ]
+}
