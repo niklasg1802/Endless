@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Endless</title>
+<style>
+  :root{
+    --bg:#0e1013; --panel:#161a1f; --panel2:#1c2128; --line:#2a3138;
+    --fg:#e6edf3; --dim:#8b949e; --accent:#6ea8fe; --ok:#3fb950;
+    --warn:#d29922; --bad:#f85149; --radius:10px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{--bg:#f6f8fa;--panel:#fff;--panel2:#f0f3f6;--line:#d8dee4;--fg:#1f2328;--dim:#636c76;}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:14px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  header{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;
+    align-items:center;gap:16px;flex-wrap:wrap;background:var(--panel)}
+  h1{font-size:16px;margin:0;letter-spacing:.02em}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--dim);
+    margin:0 0 10px}
+  main{padding:20px;display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    max-width:1500px;margin:0 auto}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:16px;min-width:0}
+  .wide{grid-column:1/-1}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .dim{color:var(--dim)}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+  button{background:var(--panel2);color:var(--fg);border:1px solid var(--line);
+    border-radius:7px;padding:6px 12px;cursor:pointer;font-size:13px}
+  button:hover:not(:disabled){border-color:var(--accent)}
+  button:disabled{opacity:.45;cursor:not-allowed}
+  button.primary{background:var(--accent);border-color:var(--accent);color:#0b1220;font-weight:600}
+  input,textarea,select{background:var(--panel2);color:var(--fg);border:1px solid var(--line);
+    border-radius:7px;padding:6px 9px;font-size:13px;font-family:inherit;width:100%}
+  textarea{min-height:70px;resize:vertical;font-family:ui-monospace,monospace;font-size:12px}
+  label{display:block;font-size:12px;color:var(--dim);margin:8px 0 3px}
+  .pill{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;
+    border:1px solid var(--line);color:var(--dim)}
+  .pill.ok{color:var(--ok);border-color:var(--ok)}
+  .pill.bad{color:var(--bad);border-color:var(--bad)}
+  .pill.warn{color:var(--warn);border-color:var(--warn)}
+  .bar{height:6px;background:var(--panel2);border-radius:999px;overflow:hidden;margin-top:6px}
+  .bar>i{display:block;height:100%;background:var(--accent)}
+  .bar.ok>i{background:var(--ok)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--dim);font-weight:500;font-size:12px}
+  .grid-media{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+  .shot{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--panel2)}
+  .shot img,.shot video{width:100%;display:block;background:#000;aspect-ratio:16/9;object-fit:contain}
+  .shot .meta{padding:8px;font-size:12px}
+  pre{background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:10px;
+    overflow:auto;max-height:260px;font-size:11.5px;margin:0;white-space:pre-wrap}
+  .kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:12.5px}
+  .kv b{color:var(--dim);font-weight:500}
+  a{color:var(--accent)}
+  .hint{font-size:11.5px;color:var(--dim);margin-top:6px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Endless</h1>
+  <span class="pill" id="comfyPill">ComfyUI ?</span>
+  <span class="pill" id="gpuPill">GPU ?</span>
+  <span class="pill" id="diskPill">disk ?</span>
+  <span class="dim mono" id="llmPill"></span>
+  <span style="flex:1"></span>
+  <button onclick="refreshAll()">Refresh</button>
+</header>
+
+<main>
+  <section class="card">
+    <h2>Runtime</h2>
+    <div class="kv" id="runtime"></div>
+    <div id="gpuBars" style="margin-top:12px"></div>
+  </section>
+
+  <section class="card">
+    <h2>Weight downloads</h2>
+    <div id="downloads" class="dim">loading…</div>
+    <div class="hint">Parsed from the download logs. Do not render while a download is
+      running — the models disk serialises badly under FUSE.</div>
+  </section>
+
+  <section class="card wide">
+    <h2>Scenes</h2>
+    <table>
+      <thead><tr>
+        <th>Scene</th><th>Canvas</th><th>Sheets</th><th>Keyframes</th>
+        <th>Clips</th><th>Final</th><th></th>
+      </tr></thead>
+      <tbody id="scenes"><tr><td colspan="7" class="dim">loading…</td></tr></tbody>
+    </table>
+    <div class="hint">Each step is file-based, so re-running one never loses earlier work.
+      <code>plan</code> is read-only; the others use the GPU.</div>
+  </section>
+
+  <section class="card wide" id="scenePanel" style="display:none">
+    <h2 id="sceneTitle">Scene</h2>
+    <div class="row" style="margin-bottom:12px">
+      <button class="primary" onclick="runStep('plan')">plan</button>
+      <button onclick="runStep('sheets')">sheets</button>
+      <button onclick="runStep('keyframes')">keyframes</button>
+      <button onclick="runStep('render')">render</button>
+      <button onclick="runStep('assemble')">assemble</button>
+      <button onclick="runStep('all')">all</button>
+      <span style="flex:1"></span>
+      <span class="pill" id="runPill">idle</span>
+    </div>
+    <div id="sceneBody"></div>
+    <h2 style="margin-top:18px">Run log</h2>
+    <pre id="runLog" class="mono">no run yet</pre>
+  </section>
+
+  <section class="card wide">
+    <h2>Defaults</h2>
+    <div class="row" style="align-items:flex-start">
+      <div style="flex:1;min-width:240px">
+        <label for="cfgJson">scenes/defaults.json</label>
+        <textarea id="cfgJson" spellcheck="false"></textarea>
+        <div class="row" style="margin-top:8px">
+          <button class="primary" onclick="saveConfig()">Save</button>
+          <span class="dim" id="cfgMsg"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+const TOKEN = new URLSearchParams(location.search).get("token") || "";
+let CURRENT = null;
+
+async function api(path, opts) {
+  const sep = path.includes("?") ? "&" : "?";
+  const url = path + sep + "token=" + encodeURIComponent(TOKEN);
+  const r = await fetch(url, opts);
+  if (!r.ok) throw new Error((await r.json().catch(()=>({}))).error || r.statusText);
+  return r.json();
+}
+function mediaUrl(slug, kind, name) {
+  return `/media/${slug}/${kind}/${name}?token=${encodeURIComponent(TOKEN)}`;
+}
+function pct(d){ return d.total ? Math.round(100*d.done/d.total) : 0; }
+function bar(d, ok){
+  const p = pct(d);
+  return `<div class="bar ${p===100&&ok?'ok':''}"><i style="width:${p}%"></i></div>
+          <span class="dim mono">${d.done}/${d.total}</span>`;
+}
+function fmtBytes(n){
+  if(!n) return "—";
+  const u=["B","KB","MB","GB"]; let i=0;
+  while(n>=1024&&i<u.length-1){n/=1024;i++;}
+  return n.toFixed(n<10&&i>0?1:0)+" "+u[i];
+}
+
+async function refreshStatus(){
+  try{
+    const s = await api("/api/status");
+    const c = s.comfy;
+    const cp = document.getElementById("comfyPill");
+    cp.textContent = c.up ? `ComfyUI ${c.version||""}` : "ComfyUI down";
+    cp.className = "pill " + (c.up ? "ok" : "bad");
+    if(c.up && c.queue) cp.textContent += ` · q${c.queue.running}/${c.queue.pending}`;
+
+    const gpus = s.gpus || [];
+    const gp = document.getElementById("gpuPill");
+    gp.textContent = gpus.length ? `${gpus.length} GPUs` : "no GPU data";
+    gp.className = "pill " + (gpus.length ? "ok" : "warn");
+    document.getElementById("gpuBars").innerHTML = gpus.map(g=>{
+      const p = Math.round(100*g.used_mb/g.total_mb);
+      return `<div style="margin-bottom:8px">
+        <div class="row" style="justify-content:space-between">
+          <span class="mono">${g.index} · ${g.name}</span>
+          <span class="dim mono">${g.used_mb}/${g.total_mb} MB · ${p}%</span>
+        </div>
+        <div class="bar ${p<10?'ok':(p>90?'':'')}"><i style="width:${p}%;background:${p>90?'var(--bad)':(p>60?'var(--warn)':'var(--ok)')}"></i></div>
+      </div>`;
+    }).join("") || '<span class="dim">nvidia-smi unavailable</span>';
+
+    const d = s.disk;
+    const dp = document.getElementById("diskPill");
+    dp.textContent = d.error ? "disk ?" : `${d.free_gb} GB free (${d.used_pct}% used)`;
+    dp.className = "pill " + (!d.error && d.used_pct<90 ? "ok" : "warn");
+
+    document.getElementById("runtime").innerHTML = `
+      <b>models</b><span class="mono">${s.models_dir}</span>
+      <b>running</b><span class="mono">${Object.keys(s.running||{}).length?Object.entries(s.running).map(([k,v])=>k+":"+v).join(", "):"idle"}</span>`;
+  }catch(e){ console.error(e); }
+}
+
+async function refreshDownloads(){
+  try{
+    const {downloads} = await api("/api/downloads");
+    const el = document.getElementById("downloads");
+    if(!downloads.length){ el.innerHTML = '<span class="dim">no download logs found</span>'; return; }
+    el.innerHTML = downloads.map(d=>{
+      const p = d.pct||0;
+      const done = p>=100;
+      return `<div style="margin-bottom:10px">
+        <div class="row" style="justify-content:space-between">
+          <span class="mono" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:60%">${d.file}</span>
+          <span class="dim mono">${done?'done':(d.rate?d.rate+' MiB/s · eta '+d.eta+'m':'')}</span>
+        </div>
+        <div class="bar ${done?'ok':''}"><i style="width:${p}%"></i></div>
+      </div>`;
+    }).join("");
+  }catch(e){ console.error(e); }
+}
+
+async function refreshScenes(){
+  const {scenes} = await api("/api/scenes");
+  const tb = document.getElementById("scenes");
+  if(!scenes.length){
+    tb.innerHTML = '<tr><td colspan="7" class="dim">no scenes yet — add a JSON file to scenes/</td></tr>';
+    return;
+  }
+  tb.innerHTML = scenes.map(s=>`
+    <tr>
+      <td><a href="#" onclick="openScene('${s.slug}');return false">${s.title}</a>
+        ${s.running?`<span class="pill warn">${s.running}</span>`:""}
+        <div class="dim mono">${s.slug}</div></td>
+      <td class="mono dim">${s.width||"?"}×${s.height||"?"}<br>${s.seconds||0}s / ${s.shots} shots</td>
+      <td>${bar(s.sheets,true)}</td>
+      <td>${bar(s.keyframes,true)}</td>
+      <td>${bar(s.clips,true)}</td>
+      <td>${s.final.exists
+            ? `<span class="pill ok">${fmtBytes(s.final.bytes)}</span>`
+            : '<span class="dim">—</span>'}</td>
+      <td><button onclick="openScene('${s.slug}')">open</button></td>
+    </tr>`).join("");
+}
+
+async function openScene(slug){
+  CURRENT = slug;
+  const d = await api("/api/scene/"+encodeURIComponent(slug));
+  document.getElementById("scenePanel").style.display = "";
+  document.getElementById("sceneTitle").textContent = d.raw.title || slug;
+  const body = document.getElementById("sceneBody");
+
+  const chars = d.characters.map(c=>`
+    <div class="shot">
+      ${c.sheet.exists
+        ? `<img src="${mediaUrl(slug,'sheets',c.key+'.png')}" alt="${c.key}">`
+        : `<div style="aspect-ratio:16/9;display:grid;place-items:center" class="dim">no sheet</div>`}
+      <div class="meta"><b>${c.key}</b>
+        <div class="dim" style="font-size:11px">${c.sheet_prompt.slice(0,110)}…</div></div>
+    </div>`).join("");
+
+  const shots = d.shots.map(s=>`
+    <div class="shot">
+      ${s.clip.exists
+        ? `<video src="${mediaUrl(slug,'clips',s.id+'.mp4')}" controls preload="metadata"></video>`
+        : (s.keyframe.exists
+            ? `<img src="${mediaUrl(slug,'keyframes',s.id+'.png')}" alt="${s.id}">`
+            : `<div style="aspect-ratio:16/9;display:grid;place-items:center" class="dim">not generated</div>`)}
+      <div class="meta">
+        <div class="row" style="justify-content:space-between">
+          <b class="mono">${s.id}</b><span class="dim mono">${s.seconds}s</span>
+        </div>
+        <div class="row" style="margin-top:5px;gap:5px">
+          <span class="pill ${s.keyframe.exists?'ok':''}">keyframe</span>
+          <span class="pill ${s.clip.exists?'ok':''}">clip</span>
+          ${s.characters.map(c=>`<span class="pill">${c}</span>`).join("")}
+        </div>
+      </div>
+    </div>`).join("");
+
+  body.innerHTML = `
+    <div class="dim mono" style="margin-bottom:12px">${d.out_dir}</div>
+    ${d.final.exists?`<div style="margin-bottom:14px">
+      <h2>Final</h2>
+      <video src="${mediaUrl(slug,'',  'final.mp4')}" controls style="max-width:640px;width:100%;border-radius:8px"></video>
+    </div>`:""}
+    <h2>Characters</h2>
+    <div class="grid-media">${chars||'<span class="dim">none</span>'}</div>
+    <h2 style="margin-top:18px">Shots</h2>
+    <div class="grid-media">${shots}</div>`;
+
+  pollLog();
+}
+
+async function runStep(step){
+  if(!CURRENT) return;
+  try{
+    const r = await api("/api/run", {
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({slug: CURRENT, step})});
+    if(!r.ok){ alert(r.error); return; }
+    document.getElementById("runPill").textContent = step + " running";
+    document.getElementById("runPill").className = "pill warn";
+    pollLog();
+  }catch(e){ alert(e.message); }
+}
+
+let logTimer = null;
+async function pollLog(){
+  if(!CURRENT) return;
+  clearTimeout(logTimer);
+  try{
+    const l = await api("/api/log/"+encodeURIComponent(CURRENT));
+    const pre = document.getElementById("runLog");
+    pre.textContent = l.log || "no run yet";
+    pre.scrollTop = pre.scrollHeight;
+    const p = document.getElementById("runPill");
+    if(l.running){
+      p.textContent = l.step + " running";
+      p.className = "pill warn";
+      logTimer = setTimeout(pollLog, 2000);
+    } else {
+      p.textContent = l.exit_code === 0 ? "last run ok" : (l.exit_code==null ? "idle" : "exit "+l.exit_code);
+      p.className = "pill " + (l.exit_code === 0 ? "ok" : "");
+      if(l.exit_code === 0){ refreshScenes(); if(CURRENT) openScene(CURRENT); }
+    }
+  }catch(e){ console.error(e); }
+}
+
+async function loadConfig(){
+  try{
+    const c = await api("/api/config");
+    document.getElementById("cfgJson").value = JSON.stringify(c.defaults||{}, null, 2);
+    document.getElementById("llmPill").textContent = "text: " + c.llm;
+  }catch(e){ console.error(e); }
+}
+async function saveConfig(){
+  const msg = document.getElementById("cfgMsg");
+  try{
+    const defaults = JSON.parse(document.getElementById("cfgJson").value || "{}");
+    await api("/api/config", {method:"POST",
+      headers:{"Content-Type":"application/json"}, body: JSON.stringify({defaults})});
+    msg.textContent = "saved";
+    setTimeout(()=>msg.textContent="", 2000);
+  }catch(e){ msg.textContent = "error: " + e.message; }
+}
+
+function refreshAll(){ refreshStatus(); refreshDownloads(); refreshScenes(); loadConfig(); }
+refreshAll();
+setInterval(refreshStatus, 5000);
+setInterval(refreshDownloads, 4000);
+setInterval(refreshScenes, 8000);
+</script>
+</body>
+</html>
