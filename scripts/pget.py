@@ -95,13 +95,16 @@ def main():
     # A file is only "done" if it matches the expected size. Checking mere
     # existence accepted a partially-written file as complete, which silently
     # corrupted a 19.5 GiB weight and made the downloader skip it forever.
+    #
+    # Do NOT delete the short file here: the .parts chunks carry the resume
+    # state, and deleting before those are read loses everything downloaded so
+    # far. It is overwritten atomically at the end anyway.
     if out.exists():
         got = out.stat().st_size
         if got == total:
             print(f"already complete: {out} ({got} bytes)")
             return
-        print(f"incomplete: {out} ({got}/{total} bytes) -- re-fetching the remainder")
-        out.unlink()
+        print(f"incomplete: {out} ({got}/{total} bytes) -- resuming from chunks")
 
     partdir = out.with_suffix(out.suffix + ".parts")
     partdir.mkdir(exist_ok=True)
