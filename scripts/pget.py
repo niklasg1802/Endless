@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+"""Parallel chunked downloader for HuggingFace.
+
+HuggingFace throttles each connection to roughly 1 MB/s on some links while the
+aggregate link is much faster -- measured ~0.9 MB/s per connection against
+~8 MB/s total on the reference rig. The `hf` CLI's --max-workers only
+parallelises *across files*, so a single 20 GiB safetensors still trickles
+(about 23 h for the H3 set). Splitting one file into ranged chunks instead
+reached ~7 MiB/s, roughly 7x.
+
+Stdlib only. Resumes from existing .parts files, and sends HF_TOKEN when set so
+gated repos work.
+
+Usage:
+    pget.py <url> <output-path> [-c 8] [--size BYTES]
+"""
+
+import argparse
+import concurrent.futures
+import os
+import pathlib
+import sys
+import threading
+import time
+import urllib.error
+import urllib.request
+
+UA = {"User-Agent": "endless-pget/1.0"}
+_lock = threading.Lock()
+_done = 0
+
+
+def auth_headers():
+    """Base headers, plus an HF token if one is configured.
+
+    Reads HF_TOKEN from the environment first, then the standard
+    ~/.cache/huggingface/token file the `hf` CLI writes. Gated repos
+    (e.g. Lightricks/LTX-2.5) need this; ungated ones do not.
+    """
+    h = dict(UA)
+    token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGING_FACE_HUB_TOKEN")
+    if not token:
+        token_file = pathlib.Path.home() / ".cache/huggingface/token"
+        try:
+            if token_file.exists():
+                token = token_file.read_text().strip()
+        except OSError:
+            token = None
+    if token:
+        h["Authorization"] = f"Bearer {token}"
+    return h
+
+
+def head_size(url):
+    req = urllib.request.Request(url, headers=auth_headers(), method="HEAD")
+    with urllib.request.urlopen(req, timeout=60) as r:
+        n = r.headers.get("Content-Length")
+        if n is None:
+            raise RuntimeError("no Content-Length; pass --size")
+        return int(n)
+
+
+def fetch_range(url, start, end, dest, attempt=0):
+    """Download [start, end] into dest, resuming and retrying with backoff."""
+    global _done
+    have = dest.stat().st_size if dest.exists() else 0
+    want = end - start + 1
+    if have >= want:
+        with _lock:
+            _done += have
+        return have
+    headers = auth_headers()
+    headers["Range"] = f"bytes={start + have}-{end}"
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r, open(dest, "ab") as f:
+            while True:
+                block = r.read(1 << 20)
+                if not block:
+                    break
+                f.write(block)
+                with _lock:
+                    _done += len(block)
+        return dest.stat().st_size
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        if attempt >= 8:
+            raise RuntimeError(f"chunk {start}-{end} failed: {e}") from e
+        time.sleep(min(2 ** attempt, 30))
+        return fetch_range(url, start, end, dest, attempt + 1)
+
+
+def main():
+    global _done
+    p = argparse.ArgumentParser()
+    p.add_argument("url")
+    p.add_argument("output")
+    p.add_argument("-c", "--connections", type=int, default=8)
+    p.add_argument("--size", type=int, help="total bytes, if HEAD is unreliable")
+    args = p.parse_args()
+
+    out = pathlib.Path(args.output)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    if out.exists() and out.stat().st_size > 0:
+        print(f"already exists: {out} ({out.stat().st_size} bytes)")
+        return
+
+    total = args.size or head_size(args.url)
+    partdir = out.with_suffix(out.suffix + ".parts")
+    partdir.mkdir(exist_ok=True)
+
+    n = max(1, min(args.connections, 16))
+    chunk = (total + n - 1) // n
+    ranges = [(i * chunk, min((i + 1) * chunk - 1, total - 1)) for i in range(n)]
+    ranges = [r for r in ranges if r[0] <= r[1]]
+
+    for i, (s, e) in enumerate(ranges):  # count resumed bytes for an honest progress bar
+        f = partdir / f"{i:03d}"
+        if f.exists():
+            _done += min(f.stat().st_size, e - s + 1)
+
+    print(f"{total / 2**30:.2f} GiB -> {out} ({len(ranges)} chunks)", flush=True)
+    stop = threading.Event()
+
+    def report():
+        last = _done
+        while not stop.wait(15):
+            with _lock:
+                cur = _done
+            rate = (cur - last) / 15
+            last = cur
+            pct = 100 * cur / total if total else 0
+            eta = (total - cur) / rate / 60 if rate > 0 else 0
+            print(f"  {pct:5.1f}%  {cur / 2**30:6.2f}/{total / 2**30:.2f} GiB  "
+                  f"{rate / 2**20:5.2f} MiB/s  eta {eta:5.1f} min", flush=True)
+
+    t = threading.Thread(target=report, daemon=True)
+    t.start()
+    try:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(ranges)) as ex:
+            futs = [ex.submit(fetch_range, args.url, s, e, partdir / f"{i:03d}")
+                    for i, (s, e) in enumerate(ranges)]
+            for f in concurrent.futures.as_completed(futs):
+                f.result()
+    finally:
+        stop.set()
+
+    with open(out, "wb") as dst:  # stitch the chunks in order
+        for i in range(len(ranges)):
+            with open(partdir / f"{i:03d}", "rb") as src:
+                while True:
+                    b = src.read(1 << 22)
+                    if not b:
+                        break
+                    dst.write(b)
+
+    got = out.stat().st_size
+    if got != total:
+        sys.exit(f"SIZE MISMATCH: {got} != {total}")
+    for f in partdir.iterdir():
+        f.unlink()
+    partdir.rmdir()
+    print(f"done: {out} ({got / 2**30:.2f} GiB)", flush=True)
+
+
+if __name__ == "__main__":
+    main()
