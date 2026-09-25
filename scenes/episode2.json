@@ -1,0 +1,282 @@
+{
+  "title": "Episode 2 - Twenny Minutes",
+  "backend": "local",
+  "width": 1024,
+  "height": 576,
+  "seed": 8801,
+  "style_block": "2D animated adult TV cartoon, American sci-fi sitcom style: flat cel colors, clean thick black outlines, minimal shading, big round white eyes with small black pupils, cutout-style character animation, hand-drawn 2D cels. No gradients, no 3D, no text, no watermark, no letterboxing.",
+  "characters": {
+    "scientist": {
+      "sheet": "sheets/rick.png"
+    },
+    "boy": {
+      "sheet": "sheets/morty.png"
+    }
+  },
+  "shots": [
+    {
+      "id": "co1_shift",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "Mall pretzel kiosk at night, overhead fluorescent, a closed sign, carousel still turning with one pretzel.",
+      "motion_prompt": "The carousel turns slowly with a single pretzel on it, under a sign that says CLOSED. Fluorescent light flickers once."
+    },
+    {
+      "id": "co2_kiosk",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "Two men at the kiosk. One folds a pretzel into a clamshell and hands over a clipboard.",
+      "motion_prompt": "A clerk folds a mall pretzel into a clamshell and slides a clipboard across. He says flatly: \"One pretzel, one extraction. Twenny minutes.\" The other man takes it without looking up."
+    },
+    {
+      "id": "co3_shuttle",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "A boy in the shuttle's back seat, watching the kiosk recede.",
+      "motion_prompt": "The boy watches out the back window as the mall shrinks away. A fake mall flickers on a screen beside him. He does not ask anything. His hands stay folded."
+    },
+    {
+      "id": "a1_forms",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "The clipboard is passed. A card is refused, then left on the counter.",
+      "motion_prompt": "The clerk holds out the clipboard; the driver refuses to take it, so the clerk sets it down on the counter. The clerk says: \"Officially, you were never here.\" The driver picks it up and reads it."
+    },
+    {
+      "id": "a2_room",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "A cramped room at the lot's edge: a dried bowl, stacked delivery bags.",
+      "motion_prompt": "The driver sits on the edge of a bare bed in a small room. Delivery bags are stacked against the wall. He stares at nothing, then stands and leaves. Nothing in the room moves."
+    },
+    {
+      "id": "a3_soup",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "Inside the shuttle: a crock of soup wedged behind the fire extinguisher.",
+      "motion_prompt": "The driver reaches past the handbrake and adjusts a crock of soup wedged behind the fire extinguisher. Steam curls off it. He does not explain."
+    },
+    {
+      "id": "a4_kid",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "The shuttle rolling. The boy in the back, the driver ahead.",
+      "motion_prompt": "The boy leans forward between the seats and asks something. The driver's head turns slightly. The boy sits back. The shuttle bounces on a pothole."
+    },
+    {
+      "id": "a5_line",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "The shuttle crosses a painted white line and the world changes shape outside.",
+      "motion_prompt": "The shuttle drives over a white containment line. Outside, the lot folds and reforms into a suburban street. The driver does not slow down. He says: \"Twenny minutes.\""
+    },
+    {
+      "id": "b1_house",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "A living room in an ordinary house. A man and woman on a couch, not looking at each other.",
+      "motion_prompt": "In a dim living room, a man and a woman sit at either end of a couch facing forward. Both are still. The television flickers on their faces. Neither turns."
+    },
+    {
+      "id": "b2_door",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "The front door opens. A man with the driver's face stands in the kitchen doorway.",
+      "motion_prompt": "A door opens and a tall man steps into the kitchen doorway, wearing the driver's face. He looks at the couch. He says nothing. His hands are empty."
+    },
+    {
+      "id": "b3_watch",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "The driver at the window, watching himself inside.",
+      "motion_prompt": "From outside the window, the driver watches the man inside the house move through the kitchen. He does not knock. His expression does not change as he watches."
+    },
+    {
+      "id": "b4_scan",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "A boy stands on a pad being scanned; a screen prints his name.",
+      "motion_prompt": "A boy stands still on a lit pad while a beam sweeps over him. A small screen beside it prints text. The driver leans in and reads it, then straightens up sharply."
+    },
+    {
+      "id": "b5_atom",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "A small device is handed over with a folded note.",
+      "motion_prompt": "A hand passes a small device and a folded note across a counter. The driver takes them together. He turns the note over once, then pockets it without opening it."
+    },
+    {
+      "id": "c1_shelf",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "The house kitchen. A man fixes a broken shelf, well.",
+      "motion_prompt": "A man in the kitchen carefully fits a bracket to a broken shelf and tightens it. He tests it with one hand. It holds. He moves on to something else."
+    },
+    {
+      "id": "c2_mug",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "A mug sits at the very edge of the counter. A hand moves it inward.",
+      "motion_prompt": "A mug rests at the far edge of the kitchen counter. A hand comes into frame and slides the mug four inches inward, away from the edge, then withdraws."
+    },
+    {
+      "id": "c3_wait",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "The pad outside. A man stands exactly where he was scanned, not leaving.",
+      "motion_prompt": "A man stands motionless on a pad in a back alley, exactly where he was scanned. Wind moves his coat. He does not step off. He is still there."
+    },
+    {
+      "id": "c4_ask",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "The boy in the shuttle asks a question; the driver does not look over.",
+      "motion_prompt": "The boy speaks from the back of the shuttle. The driver's eyes stay on the road. The boy waits for an answer that does not come, then looks down at his hands."
+    },
+    {
+      "id": "d1_return",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "The house kitchen again. The driver walks in and picks up the folded note.",
+      "motion_prompt": "The driver walks into the kitchen and picks the folded note up off the counter. He holds it up toward the light. Behind him, the other man watches without moving."
+    },
+    {
+      "id": "d2_fail",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "He holds the note up and cannot make it say the right thing.",
+      "motion_prompt": "The note is held up to the light. The driver's mouth moves once, starts a sentence, and stops. He lowers the note. His shoulders drop slightly."
+    },
+    {
+      "id": "d3_delay",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "A card is slipped under a pantry door with tiny print.",
+      "motion_prompt": "A card slides under a pantry door and stops against the driver's shoe. He crouches, picks it up, and turns it over. The print on it is very small."
+    },
+    {
+      "id": "d4_own",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "The card is stamped with his own order number.",
+      "motion_prompt": "The driver holds the card close and reads it. His thumb stops moving over the surface. He is holding the same card he filled in at the kiosk."
+    },
+    {
+      "id": "d5_recv",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "A back room of receipts under glass. Eight receipts, all identical.",
+      "motion_prompt": "In a back room, receipts are pinned under glass in rows. Eight of them read the same thing. The driver moves along the row, reading each one, then stops at the eighth."
+    },
+    {
+      "id": "d6_sign",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "He signs an order he does not want to sign.",
+      "motion_prompt": "The driver signs a form on a clipboard. His pen stops halfway through the signature, then finishes it. He sets the pen down carefully."
+    },
+    {
+      "id": "e1_transit",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "A clipboard is checked; a shuttle outside begins to move.",
+      "motion_prompt": "A clerk checks a clipboard and nods. Through the window behind him, a shuttle starts to move on its own, out of the lot, without a driver."
+    },
+    {
+      "id": "e2_whiteout",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "The shuttle in whiteout; the boy will not buckle his belt.",
+      "motion_prompt": "The shuttle drives through a white blur of nothing. In the back seat the boy sits with his belt hanging loose, staring straight ahead, refusing to fasten it."
+    },
+    {
+      "id": "e3_whole",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "The whiteout clears. The little house, the little lot, unchanged.",
+      "motion_prompt": "The white clears and the same suburban street is there again, the same house, the same painted line. The shuttle rolls to a stop in front of it."
+    },
+    {
+      "id": "e4_simul",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "Two men speak at the same time and neither hears the other.",
+      "motion_prompt": "Two identical men stand facing each other in a kitchen, both speaking at once. Neither reacts to the other's voice. Between them, a woman holds a folded note."
+    },
+    {
+      "id": "e5_keep",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "The device is offered back, and refused.",
+      "motion_prompt": "A small device is held out in an open palm. The other hand closes over it and pushes it gently back. Neither man says anything."
+    },
+    {
+      "id": "r1_empty",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "The kitchen in the morning. The mess is tidy. Someone else's work.",
+      "motion_prompt": "Morning light in a kitchen. Everything in it has been straightened and put away. A man stands in the doorway, not entering, looking at the room."
+    },
+    {
+      "id": "r2_hey",
+      "characters": [],
+      "size": "ms",
+      "seconds": 5,
+      "keyframe_prompt": "Two men and a woman, backs turned, talking about something small.",
+      "motion_prompt": "A man and a woman stand with their backs to the room, talking quietly about something on the counter. Behind them, a third man opens his mouth to speak. Nobody turns around."
+    },
+    {
+      "id": "r3_boy",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "The boy alone in a pantry with a version of himself.",
+      "motion_prompt": "A boy sits alone on the floor of a small pantry. In the doorway, another boy with his face stands watching him. Neither moves for a moment."
+    },
+    {
+      "id": "z1_kiosk",
+      "characters": [],
+      "size": "es",
+      "seconds": 5,
+      "keyframe_prompt": "The pretzel kiosk again, but the lot outside it is empty.",
+      "motion_prompt": "The pretzel kiosk stands alone under flickering fluorescent light. The carousel turns with a single pretzel on it. Outside the glass, where the lot used to be, there is nothing at all."
+    },
+    {
+      "id": "z2_tip",
+      "characters": [],
+      "size": "cu",
+      "seconds": 5,
+      "keyframe_prompt": "The device is left on the counter like a tip. The carousel keeps turning.",
+      "motion_prompt": "A hand sets a small device down on the counter and withdraws. The carousel keeps turning with one pretzel on it. The shot holds. Nothing else happens."
+    }
+  ]
+}
