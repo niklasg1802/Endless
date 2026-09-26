@@ -77,6 +77,15 @@ def make_room_tone(dst, seconds, sample_rate=48000):
         raise RuntimeError(f"room tone failed: {r.stderr[:200]}")
 
 
+# Shot-id prefixes that are meant to be wordless beats. Kept here rather than in
+# the scene file so the intent is visible at the point it is applied.
+SILENT_PREFIXES = ("ex",)
+
+
+def is_silent_beat(shot_id):
+    return shot_id.startswith(SILENT_PREFIXES)
+
+
 def assemble(scene_path, crossfade=0.12, roomtone=True, out_name="final.mp4"):
     s = scene.load_scene(scene_path)
     d = scene.scene_dir(s)
@@ -105,7 +114,12 @@ def assemble(scene_path, crossfade=0.12, roomtone=True, out_name="final.mp4"):
         if not dst.exists():
             normalise(src, dst, w, h)
         parts.append(dst)
+    silent = sum(1 for sh in shots if is_silent_beat(sh["id"]))
     print(f"  normalised {len(parts)} clips to {w}x{h}")
+    if silent:
+        print(f"  {silent} wordless machine beats will be ducked under the room tone")
+    talkie = len(parts) - silent
+    print(f"  pacing: {talkie} dialogue shots, {silent} breathing shots")
 
     # 2. room tone sized to the total runtime
     total = sum((probe(p) or {}).get("duration", 0) for p in parts)
@@ -113,6 +127,21 @@ def assemble(scene_path, crossfade=0.12, roomtone=True, out_name="final.mp4"):
     if roomtone and not bed.exists():
         make_room_tone(bed, total + 1)
         print(f"  room tone bed: {total:.1f}s")
+
+    # 2b. Silence the wordless beats at the source, so the room tone carries them
+    # and the episode gets the pauses a wall of dialogue never has.
+    for sh, part in zip(shots, parts):
+        if not is_silent_beat(sh["id"]):
+            continue
+        quiet = work / f"{sh['id']}.quiet.mp4"
+        if quiet.exists():
+            continue
+        r = run(["ffmpeg", "-y", "-v", "error", "-i", str(part),
+                 "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
+                 "-shortest", "-map", "0:v", "-map", "1:a",
+                 "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", str(quiet)])
+        if r.returncode == 0:
+            parts[parts.index(part)] = quiet
 
     # 3. concat the picture, then lay the bed under it
     listing = work / "concat.txt"
