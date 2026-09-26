@@ -1,0 +1,2323 @@
+{
+  "title": "Episode 3 - The Original",
+  "backend": "local",
+  "width": 608,
+  "height": 352,
+  "seed": 31415,
+  "style_block": "2D animated adult TV cartoon, American sci-fi sitcom style: flat cel colors, clean thick black outlines, minimal shading, big round white eyes with small black pupils, cutout-style character animation, hand-drawn 2D cels. No gradients, no 3D, no text, no watermark, no letterboxing.",
+  "characters": {
+    "scientist": {
+      "sheet": "sheets/rick.png"
+    },
+    "boy": {
+      "sheet": "sheets/morty.png"
+    }
+  },
+  "shots": [
+    {
+      "id": "co001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. es framing. Story beat: cold open: the promise is made and the machine is already running. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "co002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. ms framing. Story beat: cold open: the promise is made and the machine is already running. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "co003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. cu framing. Story beat: cold open: the promise is made and the machine is already running. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. es framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. ms framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. cu framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. ms framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. cu framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. es framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. es framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. ms framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. cu framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1010",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. ms framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. cu framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. es framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. es framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. ms framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. cu framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1016",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. ms framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. cu framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. es framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1019",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. es framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. ms framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1021",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. cu framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a1022",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cracked concrete extraction lot at the edge of the mall, white containment lines painted on the ground. the shuttle, the painted lines, loose paper blowing. ms framing. Story beat: NEED: the job is accepted and the flaw is named out loud once. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. es framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. ms framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. cu framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. ms framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. cu framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. es framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. es framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. ms framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. cu framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2010",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. ms framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. cu framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. es framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. es framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. ms framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. cu framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2016",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. ms framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. cu framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. es framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2019",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. es framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. ms framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2021",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. cu framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a2022",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the cab of a battered extraction shuttle, dashboard buried under receipts. the dash, a croc of soup, the mirror, a fly. ms framing. Story beat: GO: the threshold is crossed; the world changes shape. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. es framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. ms framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. cu framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. ms framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. cu framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. es framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. es framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. ms framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. cu framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3010",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. ms framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. cu framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. es framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. es framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. ms framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. cu framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3016",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. ms framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. cu framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. es framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3019",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. es framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. ms framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3021",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. cu framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "a3022",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cramped suburban kitchen with one broken shelf and a single mug at the edge of the counter. the shelf, the mug, morning light. ms framing. Story beat: SEARCH: the domestic cost appears before any explanation. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ab001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back alley behind the lot, walls marked with white containment lines. the lines, bins, wet concrete. es framing. Story beat: ACT BREAK: the reversal of understanding \u2014 which one of me. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ab002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back alley behind the lot, walls marked with white containment lines. the lines, bins, wet concrete. ms framing. Story beat: ACT BREAK: the reversal of understanding \u2014 which one of me. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ab003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back alley behind the lot, walls marked with white containment lines. the lines, bins, wet concrete. cu framing. Story beat: ACT BREAK: the reversal of understanding \u2014 which one of me. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ab004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back alley behind the lot, walls marked with white containment lines. the lines, bins, wet concrete. ms framing. Story beat: ACT BREAK: the reversal of understanding \u2014 which one of me. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ab005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back alley behind the lot, walls marked with white containment lines. the lines, bins, wet concrete. cu framing. Story beat: ACT BREAK: the reversal of understanding \u2014 which one of me. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ab006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back alley behind the lot, walls marked with white containment lines. the lines, bins, wet concrete. es framing. Story beat: ACT BREAK: the reversal of understanding \u2014 which one of me. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ab007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back alley behind the lot, walls marked with white containment lines. the lines, bins, wet concrete. es framing. Story beat: ACT BREAK: the reversal of understanding \u2014 which one of me. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ab008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back alley behind the lot, walls marked with white containment lines. the lines, bins, wet concrete. ms framing. Story beat: ACT BREAK: the reversal of understanding \u2014 which one of me. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1010",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1016",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1019",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1021",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1022",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1023",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1024",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1025",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1026",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1027",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1028",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1029",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b1030",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. es framing. Story beat: FIND: the paperwork proves he has been replaced, repeatedly. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2010",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2016",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2019",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2021",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2022",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2023",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2024",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2025",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2026",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2027",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2028",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2029",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. cu framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b2030",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: TAKE: his own order is what recycles him; the trap is authored. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3010",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3016",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3019",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3021",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3022",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3023",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3024",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3025",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3026",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3027",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3028",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. ms framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3029",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "b3030",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the price lands and the pair are separated by it. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. ms framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. cu framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. ms framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. cu framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. ms framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. cu framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt010",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. ms framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. cu framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. ms framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. cu framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt016",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. ms framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. cu framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt019",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. ms framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt021",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. cu framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt022",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. ms framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt023",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. cu framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt024",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "rt025",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "the shuttle's roof rack, wind pulling at loose straps. the rack, straps, the road below. es framing. Story beat: RETURN: back to normal, and it is worse. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. es framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. ms framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. cu framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg004",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. ms framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. cu framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. es framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg007",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. es framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. ms framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. cu framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nDon't \u2014 don't touch the clipboard, don't. I signed that. That's the only thing in this room with my name actually on it.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg010",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. ms framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nThe forms are not the point. I keep telling him the forms are not the point and he keeps handing me forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. cu framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nTwenny minutes, he said. That was two hours ago. That was two hours and one of them was me, and I don't know which.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. es framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nEverything in here works. That's not \u2014 look, that's not a good thing, that is specifically the problem, and you're smiling.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. es framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nLook \u2014 it's twenty minutes, in and out, and nobody signs anything, especially not you, and not the driver, and not the man at the desk who keeps asking me about the forms.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. ms framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nI'm not \u2014 I'm not saying you're a copy, I'm saying you're a duplicate, which is completely different, and if you'd let me finish a sentence you'd know that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. cu framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nEight. There are eight of them and every one says one pretzel. Why is it always one pretzel. Somebody explain the pretzel.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg016",
+      "size": "ms",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. ms framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nHe said twenny minutes. He said it like it was a promise, and I believed him, and that is on me, that is entirely on me.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. cu framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nWhich me did you talk to. \u2014 Which me. Because I've been standing here the whole time and I don't remember that conversation.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. es framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nCan I get a sandwich. Can I get a sandwich. I'm asking a question and I've now asked it twice and nobody is answering.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg019",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. es framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nI fixed the shelf. That's \u2014 it's the shelf, I fixed it, you asked and I did it, and it's holding, so why are you looking at me like that.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "tg020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a closed shopping mall's pretzel kiosk under flickering fluorescent light, the carousel still turning. the carousel, a clipboard, steel tongs, a plastic clamshell. ms framing. Story beat: TAG: a consequence nobody dealt with, held silently. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nIt's a rental, technically. Technically it's a rental, and technically he signed, and technically that means it's not my problem, technically.\n\nReal movement in the frame: hands, coats, wind, machinery. The shot must not sit still."
+    },
+    {
+      "id": "ex001",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex002",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex003",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex004",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex005",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex006",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex007",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex008",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex009",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex010",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex011",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex012",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex013",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex014",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex015",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex016",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex017",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex018",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex019",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex020",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex021",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex022",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex023",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex024",
+      "size": "es",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex025",
+      "size": "es",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. es framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. es framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex026",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a back room with receipts pinned in rows under glass. the glass cases, paper, a desk lamp. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex027",
+      "size": "cu",
+      "characters": [
+        "scientist"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "an ordinary suburban street at dusk, identical houses in a row. identical doors, hedges, a streetlight. cu framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. cu framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    },
+    {
+      "id": "ex028",
+      "size": "ms",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "a cluttered garage laboratory of half-finished machines and coiled cable. the machines, tools, hanging cable. ms framing. Story beat: the machine keeps running unattended. Flat 2D cel style, thick black outlines.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon, flat cel colors, thick black outlines. ms framing.\n\nNobody is speaking in this shot. The camera holds on the machine as it works, unattended, cycling the same operation again.\n\nReal movement: gears, cable, paper, wind."
+    }
+  ]
+}
