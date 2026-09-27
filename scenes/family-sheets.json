@@ -1,0 +1,14 @@
+{
+  "title": "Family sheets",
+  "slug": "family-sheets",
+  "backend": "local",
+  "width": 864,
+  "height": 480,
+  "seed": 31,
+  "characters": {
+    "beth": {},
+    "jerry": {},
+    "summer": {}
+  },
+  "shots": []
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Episode 1 - Garage Portal (H3)",
+  "backend": "local",
+  "width": 608,
+  "height": 352,
+  "seed": 4021,
+  "style_block": "2D animated adult TV cartoon, American sci-fi sitcom style: flat cel colors, clean thick black outlines, minimal shading, big round white eyes with small black pupils, cutout-style character animation, hand-drawn 2D cels. No gradients, no 3D, no digital painting, no text, no watermark, no letterboxing.",
+  "characters": {
+    "scientist": {
+      "sheet_prompt": "A tall, very lanky old scientist in his 70s. Spiky pale blue-grey hair sticking up in messy spikes, one single thick unibrow straight across both eyes, large round white eyes with tiny black dot pupils, a long thin face with a pointed chin, a slightly crooked nose. White lab coat over a light blue sweater, brown trousers, black shoes. Hunched, impatient posture. One thin string of drool at the corner of his mouth. Grumpy, bored, arrogant expression.",
+      "sheet": "sheets/rick.png"
+    },
+    "boy": {
+      "sheet_prompt": "A short 14-year-old boy with a large slightly oval head, wider than it is tall, sitting on a small thin body with narrow shoulders. Short brown hair drawn as one smooth rounded shape hugging the skull, swept slightly forward, with small uneven tufts at the forehead and sides. NOT a bowl cut, NOT a mushroom shape. No eyebrows drawn as solid shapes, only thin simple lines. Big perfectly round white eyes with tiny black dot pupils set close together. Small curved nose line, wavy nervous mouth line. Plain yellow short-sleeve t-shirt, blue jeans, white sneakers. Anxious, worried, uncertain expression.",
+      "sheet": "sheets/morty.png"
+    }
+  },
+  "shots": [
+    {
+      "id": "e1s2_garage",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "The interior of a cluttered suburban garage laboratory at night: a workbench crowded with strange alien gadgets and loose wires, shelves of labelled jars, a greenish fluorescent tube overhead casting green light across the room. The tall scientist stands at the bench holding a glowing green ray gun, turned toward the short boy who stands beside him. Medium shot, static camera, TV animation framing.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Static camera, medium shot.\n\nThe old scientist turns to the boy and says in a raspy, slurring, bored voice, burping loudly in the middle of the sentence: \"Grab your stuff, kid, we're going to a dimension where everything is made of, burp, mayonnaise.\" The boy looks up at him, panicking, and stutters: \"Aw geez, Rick, I-I-I got a math test tomorrow!\""
+    },
+    {
+      "id": "e1s3_portal",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "The same cluttered garage laboratory at night, same lighting and same room. New camera angle: wide shot from the side. A swirling bright green portal glows on the garage wall, throwing green light and long shadows. The scientist has grabbed the boy by the arm and is pulling him toward the portal, mid-stride, the boy leaning backwards and digging his heels in.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Wide shot from the side.\n\nThe old scientist drags the boy toward the glowing green portal and says impatiently in a raspy voice: \"Come on, it's gonna be quick. In and out, twenty minutes adventure.\" The boy whines: \"Th-that's what you said last time!\" Both leap into the green portal and vanish. The portal swirls, shrinks and snaps shut."
+    },
+    {
+      "id": "e1s4_mayonnaise",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "An impossible alien landscape where the ground, hills and sky are all made of pale glossy mayonnaise. Pale yellow-white dunes stretch to the horizon under a creamy overcast sky. The tall scientist stands on a mayonnaise ridge with his arms spread wide, delighted. The short boy stands beside him with both hands on his head in despair. Wide shot.",
+      "motion_prompt": "Animate this frame of a 2D animated adult TV cartoon. Keep the exact art style and the exact character designs from the image for the whole shot: flat cel colors, clean thick black outlines, big round white eyes with small black pupils. Wide shot.\n\nThe old scientist spreads his arms wide and announces in a proud raspy voice: \"Behold! The Mayo Dimension!\" The boy looks around in horror and screams: \"I-I-I'm gonna be sick, Rick, everything smells like- like sandwiches!\" The scientist leans down and scoops up a handful of mayonnaise, eating it calmly."
+    }
+  ]
+}

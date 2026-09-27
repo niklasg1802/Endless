@@ -1,0 +1,336 @@
+{
+  "title": "The Check",
+  "slug": "the-check",
+  "backend": "local",
+  "width": 864,
+  "height": 480,
+  "seed": 21,
+  "style_block": "2D American adult animated sitcom frame, flat cel colors, thick clean black outlines, hard-edged shadow shapes, limited flat palette, no gradients, no texture, no 3D, no photorealism, cutout-style character animation, big white eyes with small black pupils.",
+  "premise": "Rick will not pay for anything he did, including bringing Morty. A diner itemizes the cost. The way home opens only when he tears off the true line instead of paying it, and the bite he refused is still on the bench.",
+  "characters": {
+    "rick": {
+      "sheet": "sheets/rick.png",
+      "sheet_prompt": "Full-body front view of Rick Sanchez, centered, standing, plain flat grey background. Very tall and thin. Yellow-tan skin. Wild spiky light-blue hair: bald crown, spikes around the sides and back, one long thin spit-curl hanging onto the forehead. Thick single unibrow. Heavy half-closed eyelids, small black pupils in large white eyes. A visible string of drool from the mouth. Open white lab coat over a light-blue collared shirt, not a black shirt and not a teal V-neck. Brown trousers, black belt, black shoes. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Rick is the tall thin older man: wild spiky light-blue hair with a bald crown and one long spit-curl on the forehead, a thick unibrow, half-closed eyelids, a string of drool, an open white lab coat over a light-blue collared shirt, brown pants, a black belt, black shoes. Not a black shirt. Not a teal collar. Not soft cloud-shaped hair.",
+      "voice": "raspy, contemptuous, talking too fast, with a wet burp inside the sentence",
+      "negative": "photorealistic, 3d, einstein, doc brown, black shirt, black turtleneck, teal trim, teal collar, soft painterly hair, brown hair, beard, glasses, text, watermark, yellow shirt"
+    },
+    "morty": {
+      "sheet": "sheets/morty.png",
+      "sheet_prompt": "Full-body front view of Morty Smith, centered, standing, plain flat grey background. Short teenage boy with an oversized round head and a small body. Brown hair in a flat bowl cut with a tiny cowlick. Huge circular white eyes, tiny black pupils, small nose, small worried mouth. Bright yellow short-sleeve t-shirt, blue pants, white sneakers. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Morty is the short boy: oversized round head, small body, brown bowl-cut hair with a flat top and a tiny cowlick, huge circular white eyes with tiny pupils, a small nose, a worried mouth, a bright yellow short-sleeve t-shirt, blue pants, white sneakers.",
+      "voice": "nervous, voice cracking, apologizing for asking",
+      "negative": "photorealistic, 3d, adult, tall, spiky hair, black hair, lab coat, text, watermark, chibi sticker, gradient shading"
+    }
+  },
+  "shots": [
+    {
+      "id": "co1",
+      "location": "cluttered suburban garage laboratory, closed garage door, concrete floor, pegboard of tools, stained workbench, one shop light, not a hallway and not an office",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 10,
+      "action": "Morty stands at the workbench holding a long crumpled diner check out toward Rick. Rick is hunched over a portal gun and will not look at the paper.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "That's not a bill. Bills are for people who ordered."
+        },
+        {
+          "speaker": "morty",
+          "line": "It has my name on it. I didn't order being scared."
+        }
+      ],
+      "keyframe_prompt": "Morty stands at the workbench holding a long crumpled diner check out toward Rick. Rick is hunched over a portal gun and will not look at the paper. The background is a fully drawn cluttered suburban garage laboratory, closed garage door, concrete floor, pegboard of tools, stained workbench, one shop light, not a hallway and not an office, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nMorty stands at the workbench holding a long crumpled diner check out toward Rick. Rick is hunched over a portal gun and will not look at the paper.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"That's not a bill. Bills are for people who ordered.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"It has my name on it. I didn't order being scared.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a1",
+      "location": "cluttered suburban garage laboratory, closed garage door, concrete floor, pegboard of tools, stained workbench, one shop light, not a hallway and not an office",
+      "characters": [
+        "rick",
+        "morty"
+      ],
+      "seconds": 12,
+      "action": "Rick fires the portal gun at the check. The paper flies into a small green swirl and comes back out larger, with a fresh line of ink still wet.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "I disputed it."
+        },
+        {
+          "speaker": "morty",
+          "line": "You disputed it into a longer one."
+        }
+      ],
+      "keyframe_prompt": "Rick fires the portal gun at the check. The paper flies into a small green swirl and comes back out larger, with a fresh line of ink still wet. The background is a fully drawn cluttered suburban garage laboratory, closed garage door, concrete floor, pegboard of tools, stained workbench, one shop light, not a hallway and not an office, with furniture and walls, not a plain grey backdrop. In frame: rick and morty.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nRick fires the portal gun at the check. The paper flies into a small green swirl and comes back out larger, with a fresh line of ink still wet.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"I disputed it.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"You disputed it into a longer one.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a2",
+      "location": "narrow American diner with vinyl booths, a checkered floor, and menus that are old checks",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "They step out of a green portal into the diner aisle. The only waiter is another Rick in a stained apron. Morty stays beside the portal. Rick is already offended.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "Why is the waiter you?"
+        },
+        {
+          "speaker": "rick",
+          "line": "Because I'm not tipping a stranger for my own face."
+        }
+      ],
+      "keyframe_prompt": "They step out of a green portal into the diner aisle. The only waiter is another Rick in a stained apron. Morty stays beside the portal. Rick is already offended. The background is a fully drawn narrow American diner with vinyl booths, a checkered floor, and menus that are old checks, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThey step out of a green portal into the diner aisle. The only waiter is another Rick in a stained apron. Morty stays beside the portal. Rick is already offended.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"Why is the waiter you?\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Because I'm not tipping a stranger for my own face.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a3",
+      "location": "one red-vinyl diner booth with a formica table, a dark parking-lot window, a ketchup bottle, and no one else in the aisle",
+      "characters": [
+        "rick",
+        "morty"
+      ],
+      "seconds": 14,
+      "action": "Waiter-Rick slaps down a plate of pancakes with one candle and a check as long as the table. One printed line reads BROUGHT THE KID. Morty stares at the candle. Rick stares at the line.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "I didn't order pancakes. I ordered you to stop reading."
+        },
+        {
+          "speaker": "morty",
+          "line": "There's a candle in them. That's a birthday. That's worse."
+        }
+      ],
+      "keyframe_prompt": "Waiter-Rick slaps down a plate of pancakes with one candle and a check as long as the table. One printed line reads BROUGHT THE KID. Morty stares at the candle. Rick stares at the line. The background is a fully drawn one red-vinyl diner booth with a formica table, a dark parking-lot window, a ketchup bottle, and no one else in the aisle, with furniture and walls, not a plain grey backdrop. In frame: rick and morty.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nWaiter-Rick slaps down a plate of pancakes with one candle and a check as long as the table. One printed line reads BROUGHT THE KID. Morty stares at the candle. Rick stares at the line.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"I didn't order pancakes. I ordered you to stop reading.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"There's a candle in them. That's a birthday. That's worse.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a4",
+      "location": "one red-vinyl diner booth with a formica table, a dark parking-lot window, a ketchup bottle, and no one else in the aisle",
+      "characters": [
+        "rick",
+        "morty"
+      ],
+      "seconds": 14,
+      "action": "Rick stabs one line of the check with a pen. A new line prints itself underneath while the pen is still touching the paper. Morty leans away from the growing page.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "I'm not paying for a portal I built."
+        },
+        {
+          "speaker": "morty",
+          "line": "You're not paying for the part where I threw up in it, and that line is in pen."
+        }
+      ],
+      "keyframe_prompt": "Rick stabs one line of the check with a pen. A new line prints itself underneath while the pen is still touching the paper. Morty leans away from the growing page. The background is a fully drawn one red-vinyl diner booth with a formica table, a dark parking-lot window, a ketchup bottle, and no one else in the aisle, with furniture and walls, not a plain grey backdrop. In frame: rick and morty.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nRick stabs one line of the check with a pen. A new line prints itself underneath while the pen is still touching the paper. Morty leans away from the growing page.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"I'm not paying for a portal I built.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"You're not paying for the part where I threw up in it, and that line is in pen.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a5",
+      "location": "diner cash register on a linoleum counter, a bell, a tip jar, booths behind",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "Morty lays one ordinary dollar on the counter. The register swallows it and spits out a small photo of Morty. Rick plucks the photo out of the tray.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "That was a real dollar."
+        },
+        {
+          "speaker": "rick",
+          "line": "Nothing that fits in a register is real. I'll expense the photo."
+        }
+      ],
+      "keyframe_prompt": "Morty lays one ordinary dollar on the counter. The register swallows it and spits out a small photo of Morty. Rick plucks the photo out of the tray. The background is a fully drawn diner cash register on a linoleum counter, a bell, a tip jar, booths behind, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nMorty lays one ordinary dollar on the counter. The register swallows it and spits out a small photo of Morty. Rick plucks the photo out of the tray.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"That was a real dollar.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Nothing that fits in a register is real. I'll expense the photo.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a6",
+      "location": "diner aisle between two rows of booths",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "Fill every red booth with a seated Rick, each one holding a huge check and not eating. Morty stands in the near aisle. Our Rick stands center with his arms folded. The other Ricks must be visible in the seats, not an empty diner.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "None of them are eating."
+        },
+        {
+          "speaker": "rick",
+          "line": "Eating is how they get you to agree you were here."
+        }
+      ],
+      "keyframe_prompt": "Fill every red booth with a seated Rick, each one holding a huge check and not eating. Morty stands in the near aisle. Our Rick stands center with his arms folded. The other Ricks must be visible in the seats, not an empty diner. The background is a fully drawn diner aisle between two rows of booths, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nFill every red booth with a seated Rick, each one holding a huge check and not eating. Morty stands in the near aisle. Our Rick stands center with his arms folded. The other Ricks must be visible in the seats, not an empty diner.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"None of them are eating.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Eating is how they get you to agree you were here.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a7",
+      "location": "diner pass-through window",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "Through the pass window the kitchen is their own garage workbench. A cook who is Rick refuses to plate a plain breakfast. Morty points. Rick does not look surprised.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "That's our garage."
+        },
+        {
+          "speaker": "rick",
+          "line": "It's a kitchen that happens to be right. Don't get sentimental about a bench."
+        }
+      ],
+      "keyframe_prompt": "Through the pass window the kitchen is their own garage workbench. A cook who is Rick refuses to plate a plain breakfast. Morty points. Rick does not look surprised. The background is a fully drawn diner pass-through window, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThrough the pass window the kitchen is their own garage workbench. A cook who is Rick refuses to plate a plain breakfast. Morty points. Rick does not look surprised.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"That's our garage.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"It's a kitchen that happens to be right. Don't get sentimental about a bench.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a8",
+      "location": "one red-vinyl diner booth with a formica table, a dark parking-lot window, a ketchup bottle, and no one else in the aisle",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "Morty puts a fork into Rick's hand and points at the single pancake. Rick holds the fork like it is a weapon he did not design.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "One bite you didn't invent. Then we leave."
+        },
+        {
+          "speaker": "rick",
+          "line": "I don't finish meals. Meals finish people who stay."
+        }
+      ],
+      "keyframe_prompt": "Morty puts a fork into Rick's hand and points at the single pancake. Rick holds the fork like it is a weapon he did not design. The background is a fully drawn one red-vinyl diner booth with a formica table, a dark parking-lot window, a ketchup bottle, and no one else in the aisle, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nMorty puts a fork into Rick's hand and points at the single pancake. Rick holds the fork like it is a weapon he did not design.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"One bite you didn't invent. Then we leave.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"I don't finish meals. Meals finish people who stay.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a9",
+      "location": "one red-vinyl diner booth with a formica table, a dark parking-lot window, a ketchup bottle, and no one else in the aisle",
+      "characters": [
+        "rick",
+        "morty"
+      ],
+      "seconds": 12,
+      "action": "Rick opens a tiny green portal on the plate and drops the bite through it. The plate doubles. Two pancakes. Two candles. Morty's face falls.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "Handled."
+        },
+        {
+          "speaker": "morty",
+          "line": "Now there are two birthdays."
+        }
+      ],
+      "keyframe_prompt": "Rick opens a tiny green portal on the plate and drops the bite through it. The plate doubles. Two pancakes. Two candles. Morty's face falls. The background is a fully drawn one red-vinyl diner booth with a formica table, a dark parking-lot window, a ketchup bottle, and no one else in the aisle, with furniture and walls, not a plain grey backdrop. In frame: rick and morty.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nRick opens a tiny green portal on the plate and drops the bite through it. The plate doubles. Two pancakes. Two candles. Morty's face falls.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Handled.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"Now there are two birthdays.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a10",
+      "location": "narrow tiled diner exit with a metal turnstile",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "Morty has passed through the turnstile. Rick is stuck on the near side because his lab coat is plastered with printed charges. He reaches after Morty.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "It let me through."
+        },
+        {
+          "speaker": "rick",
+          "line": "Because you're a line item, not a customer. Get back here."
+        }
+      ],
+      "keyframe_prompt": "Morty has passed through the turnstile. Rick is stuck on the near side because his lab coat is plastered with printed charges. He reaches after Morty. The background is a fully drawn narrow tiled diner exit with a metal turnstile, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nMorty has passed through the turnstile. Rick is stuck on the near side because his lab coat is plastered with printed charges. He reaches after Morty.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"It let me through.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Because you're a line item, not a customer. Get back here.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a11",
+      "location": "narrow tiled diner exit with a metal turnstile",
+      "characters": [
+        "rick",
+        "morty"
+      ],
+      "seconds": 14,
+      "action": "Rick finds the charge that reads BROUGHT THE KID and tears that strip off his coat. The turnstile clicks open. Rick looks ill. Morty watches from the far side.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "I'm not paying that. I'm removing it."
+        },
+        {
+          "speaker": "morty",
+          "line": "Tearing it off isn't the same as it not being true."
+        }
+      ],
+      "keyframe_prompt": "Rick finds the charge that reads BROUGHT THE KID and tears that strip off his coat. The turnstile clicks open. Rick looks ill. Morty watches from the far side. The background is a fully drawn narrow tiled diner exit with a metal turnstile, with furniture and walls, not a plain grey backdrop. In frame: rick and morty.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nRick finds the charge that reads BROUGHT THE KID and tears that strip off his coat. The turnstile clicks open. Rick looks ill. Morty watches from the far side.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"I'm not paying that. I'm removing it.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"Tearing it off isn't the same as it not being true.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a12",
+      "location": "cluttered suburban garage laboratory, closed garage door, concrete floor, pegboard of tools, stained workbench, one shop light, not a hallway and not an office",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "They are dumped on the garage floor. The same check lies on the workbench and is still printing a fresh line. Morty watches the paper grow. Rick refuses to watch it.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "It's still printing."
+        },
+        {
+          "speaker": "rick",
+          "line": "Printers are cowards. They only run when you look at them."
+        }
+      ],
+      "keyframe_prompt": "They are dumped on the garage floor. The same check lies on the workbench and is still printing a fresh line. Morty watches the paper grow. Rick refuses to watch it. The background is a fully drawn cluttered suburban garage laboratory, closed garage door, concrete floor, pegboard of tools, stained workbench, one shop light, not a hallway and not an office, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThey are dumped on the garage floor. The same check lies on the workbench and is still printing a fresh line. Morty watches the paper grow. Rick refuses to watch it.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"It's still printing.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Printers are cowards. They only run when you look at them.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "tag",
+      "location": "cluttered suburban garage laboratory, closed garage door, concrete floor, pegboard of tools, stained workbench, one shop light, not a hallway and not an office",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "The portal gun coughs one pancake onto the check. Rick does not touch it. He holds a wrench out toward Morty and looks at the wrench, not the food.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "That's the bite."
+        },
+        {
+          "speaker": "rick",
+          "line": "It's a pancake. Pancakes don't mean things. Hand me the wrench."
+        }
+      ],
+      "keyframe_prompt": "The portal gun coughs one pancake onto the check. Rick does not touch it. He holds a wrench out toward Morty and looks at the wrench, not the food. The background is a fully drawn cluttered suburban garage laboratory, closed garage door, concrete floor, pegboard of tools, stained workbench, one shop light, not a hallway and not an office, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThe portal gun coughs one pancake onto the check. Rick does not touch it. He holds a wrench out toward Morty and looks at the wrench, not the food.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"That's the bite.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"It's a pancake. Pancakes don't mean things. Hand me the wrench.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    }
+  ]
+}

@@ -21,3 +21,13 @@ poc/out/
 
 # Python
 __pycache__/
+
+# Local dashboard auth
+dashboard/.token
+
+# Generated episode media
+*.mp4
+*.png
+*.wav
+scenes/*/
+!scenes/*.json

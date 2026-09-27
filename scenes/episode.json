@@ -1,0 +1,138 @@
+{
+  "title": "Episode 1 - The Mayo Dimension",
+  "backend": "local",
+  "width": 1024,
+  "height": 576,
+  "seed": 4021,
+  "style_block": "2D animated adult TV cartoon, American sci-fi sitcom style: flat cel colors, clean thick black outlines, minimal shading, big round white eyes with small black pupils, cutout-style character animation, hand-drawn 2D cels. No gradients, no 3D, no text, no watermark, no letterboxing.",
+  "characters": {
+    "scientist": {
+      "sheet": "sheets/rick.png"
+    },
+    "boy": {
+      "sheet": "sheets/morty.png"
+    }
+  },
+  "shots": [
+    {
+      "id": "c1_kitchen",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "The family kitchen in the morning, sunlight, cereal boxes on a cluttered table. The boy sits alone, staring at a bowl.\n\nThe milk in the bowl rises into a floating wobbling column, hovers in the air, then splashes back down over the boy's face. He sits still.",
+      "motion_prompt": "The boy pokes the cereal with a spoon. The milk in the bowl RISES on its own into a wobbling column, hovers, then splashes back down over his face. He does not react. He just wipes his eyes. He says flatly: \"...okay.\""
+    },
+    {
+      "id": "n1_garage",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "The cluttered garage laboratory at night. The scientist works at a bench of alien gadgets; the boy stands in the doorway.\n\nThe scientist jabs a remote. A lawn chair in the corner vanishes in a flash of green light, leaving a scorch mark. He gestures at the empty space, pleased.",
+      "motion_prompt": "The scientist swings around holding a remote, jabs a button, and a lawn chair in the corner VANISHES in a flash of green. He says: \"I fixed the thing that makes things not be here.\" The boy: \"Wh-why would you, why would you fix that?\""
+    },
+    {
+      "id": "g1_portal",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "The garage lab. The scientist aims a ray gun at the wall.\n\nThe ray gun fires and a swirling green portal rips open in the garage wall. Papers and a wrench fly into it. The scientist grabs the boy's arm and hauls him toward the opening.",
+      "motion_prompt": "The scientist FIRES. Instead of a beam, a swirling green portal RIPS open in the wall, sucking loose papers and a wrench into it. The boy braces against the bench. The scientist grabs his arm: \"In and out. Twenty minutes.\""
+    },
+    {
+      "id": "g2_arrive",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "An impossible landscape where the ground and sky are made of pale glossy mayonnaise.\n\nThe two tumble out of the portal and slide down a glossy mayonnaise dune, spinning and rolling to a stop. The scientist stands and dusts himself off, arms wide.",
+      "motion_prompt": "The two STUMBLE out of the portal onto a mayonnaise dune and slide down it on their backs, tumbling to a stop in a puddle of it. The scientist stands up, coat covered. He says proudly: \"The Mayo Dimension!\" The boy, flat on his back: \"Aw geez.\""
+    },
+    {
+      "id": "s1_walk",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "The mayonnaise dunes stretching to a creamy horizon.\n\nThe scientist walks along a mayonnaise ridge; his boot punches through the crust and he sinks to the knee, then wrenches free with a wet pop. Beside him the boy's leg goes through and he flails.",
+      "motion_prompt": "They WALK along a ridge. The scientist's boot SINKS through the crust up to his knee and he has to wrench it free with a wet pop. The boy laughs, then his own leg goes through and he screams."
+    },
+    {
+      "id": "s2_factory",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "A mayonnaise factory: vats and conveyor belts of it, pipes overhead.\n\nA giant vat tips over and a wave of mayonnaise floods across the factory floor. The scientist and boy run through it, splashing, then the scientist hauls the boy up onto a moving conveyor belt.",
+      "motion_prompt": "A huge vat TIPS and a wave of mayonnaise pours across the floor. The two RUN from it, splashing. The scientist grabs the boy's collar and hauls him onto a conveyor belt. The boy: \"I-I-I hate this!\""
+    },
+    {
+      "id": "b1_backhome",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 6,
+      "keyframe_prompt": "The family kitchen. Evening. The mother stands with her arms folded.\n\nThe boy trudges into the kitchen covered in mayonnaise. The mother turns slowly to look at him. Neither moves. He looks at the floor.",
+      "motion_prompt": "The boy walks in soaked in mayonnaise. The mother looks at him a long moment. She says, completely flat, no joke: \"I'm not angry you went. I'm angry I only find out when the laundry comes back wrong.\" He has nothing to say."
+    },
+    {
+      "id": "f1_core",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "The factory floor. A glowing vat at the centre, churning.\n\nThe scientist levers the lid off a glowing vat. A column of light and mayonnaise erupts upward into the ceiling pipes, knocking the boy backwards off his feet.",
+      "motion_prompt": "The scientist PRISES the lid off the glowing vat. A column of light and mayonnaise SHOOTS upward into the pipes overhead. He shouts: \"There it is!\" The boy is blown backwards off his feet."
+    },
+    {
+      "id": "t1_bites",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 6,
+      "keyframe_prompt": "The factory, alarms, everything shaking.\n\nPipes burst open spraying mayonnaise from every joint. A catwalk collapses. The scientist shoves the boy through the portal; it snaps shut, shutting the scientist out.",
+      "motion_prompt": "The pipes BURST. Mayonnaise sprays from every joint and the catwalks COLLAPSE. The scientist shoves the boy through the portal and the portal SNAPS SHUT behind them, leaving the scientist on the other side."
+    },
+    {
+      "id": "r1_kitchen",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 6,
+      "keyframe_prompt": "The family kitchen. The boy lands hard on the floor alone.\n\nA portal tears open above the kitchen table and the scientist crashes through it, smashing the table on landing. The boy scrambles out of the way. The scientist lies in the wreckage.",
+      "motion_prompt": "The boy lands on the kitchen tiles alone, soaked. A second portal TEARS open above the table and the scientist FALLS through it, crashing onto the table, breaking it. He says, dazed: \"...twenty minutes.\""
+    },
+    {
+      "id": "x1_change",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 6,
+      "keyframe_prompt": "The wrecked kitchen. The two sit on the floor in the mess.\n\nThe scientist sits on the floor in the wreckage of the kitchen table. He lifts one hand and lets mayonnaise drip off his fingers. The boy sits beside him. Neither moves much.",
+      "motion_prompt": "The scientist sits among the broken table, mayonnaise dripping off him. He says, straight, no joke: \"Everything I make works. That's the whole problem.\" The boy, quietly: \"...can we just have cereal.\""
+    },
+    {
+      "id": "z1_tag",
+      "characters": [
+        "scientist",
+        "boy"
+      ],
+      "seconds": 5,
+      "keyframe_prompt": "The garage lab, empty. The lawn chair's scorch mark. The portal gun on the bench.\n\nThe ray gun on the workbench twitches and fires on its own. A small portal opens beneath the lawn chair, which drops through and vanishes. The portal seals shut. Empty room.",
+      "motion_prompt": "The abandoned ray gun on the bench TWITCHES. It fires by itself. A small green portal opens under the lawn chair, which drops through it and is gone. The portal closes."
+    }
+  ]
+}
