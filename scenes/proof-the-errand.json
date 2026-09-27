@@ -1,0 +1,204 @@
+{
+  "title": "The Errand",
+  "slug": "proof-the-errand",
+  "backend": "local",
+  "width": 864,
+  "height": 480,
+  "seed": 7,
+  "style_block": "2D American adult animated sitcom frame, flat cel colors, thick clean black outlines, hard-edged shadow shapes, limited flat palette, no gradients, no texture, no 3D, no photorealism, cutout-style character animation, big white eyes with small black pupils.",
+  "premise": "Rick would rather break a room than be told what to do in it. He promises Morty a twenty-minute errand to dodge a therapy appointment, and the errand is the appointment.",
+  "characters": {
+    "rick": {
+      "sheet": "sheets/rick.png",
+      "sheet_prompt": "Full-body front view of Rick Sanchez, centered, standing, plain flat grey background. Very tall and thin. Yellow-tan skin. Wild spiky light-blue hair: bald crown, spikes around the sides and back, one long thin spit-curl hanging onto the forehead. Thick single unibrow. Heavy half-closed eyelids, small black pupils in large white eyes. A visible string of drool from the mouth. Open white lab coat over a light-blue collared shirt, not a black shirt and not a teal V-neck. Brown trousers, black belt, black shoes. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Rick is the tall thin older man: wild spiky light-blue hair with a bald crown and one long spit-curl on the forehead, a thick unibrow, half-closed eyelids, a string of drool, an open white lab coat over a light-blue collared shirt, brown pants, a black belt, black shoes. Not a black shirt. Not a teal collar. Not soft cloud-shaped hair.",
+      "voice": "raspy, contemptuous, talking too fast, with a wet burp inside the sentence",
+      "negative": "photorealistic, 3d, einstein, doc brown, black shirt, black turtleneck, teal trim, teal collar, soft painterly hair, brown hair, beard, glasses, text, watermark, yellow shirt"
+    },
+    "morty": {
+      "sheet": "sheets/morty.png",
+      "sheet_prompt": "Full-body front view of Morty Smith, centered, standing, plain flat grey background. Short teenage boy with an oversized round head and a small body. Brown hair in a flat bowl cut with a tiny cowlick. Huge circular white eyes, tiny black pupils, small nose, small worried mouth. Bright yellow short-sleeve t-shirt, blue pants, white sneakers. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Morty is the short boy: oversized round head, small body, brown bowl-cut hair with a flat top and a tiny cowlick, huge circular white eyes with tiny pupils, a small nose, a worried mouth, a bright yellow short-sleeve t-shirt, blue pants, white sneakers.",
+      "voice": "nervous, voice cracking, apologizing for asking",
+      "negative": "photorealistic, 3d, adult, tall, spiky hair, black hair, lab coat, text, watermark, chibi sticker, gradient shading"
+    }
+  },
+  "shots": [
+    {
+      "id": "co1",
+      "location": "garage",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 5,
+      "action": "Morty stands in the garage doorway holding his phone out toward Rick. Rick is already aiming a portal gun at the wall calendar and does not look at the phone.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "Twenty minutes. In and out. Nobody has a feeling about it."
+        },
+        {
+          "speaker": "morty",
+          "line": "The text says the appointment is now, Rick."
+        }
+      ],
+      "keyframe_prompt": "Morty stands in the garage doorway holding his phone out toward Rick. Rick is already aiming a portal gun at the wall calendar and does not look at the phone. The background is a fully drawn garage, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nMorty stands in the garage doorway holding his phone out toward Rick. Rick is already aiming a portal gun at the wall calendar and does not look at the phone.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Twenty minutes. In and out. Nobody has a feeling about it.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"The text says the appointment is now, Rick.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a1",
+      "location": "garage",
+      "characters": [
+        "rick",
+        "morty"
+      ],
+      "seconds": 5,
+      "action": "A swirling green portal opens in the garage wall, burning the paper calendar off at the edges. Rick looks pleased. Morty looks at the ashes, not the portal.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "See? I handled it."
+        },
+        {
+          "speaker": "morty",
+          "line": "You handled the calendar."
+        }
+      ],
+      "keyframe_prompt": "A swirling green portal opens in the garage wall, burning the paper calendar off at the edges. Rick looks pleased. Morty looks at the ashes, not the portal. The background is a fully drawn garage, with furniture and walls, not a plain grey backdrop. In frame: rick and morty.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nA swirling green portal opens in the garage wall, burning the paper calendar off at the edges. Rick looks pleased. Morty looks at the ashes, not the portal.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"See? I handled it.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"You handled the calendar.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a2",
+      "location": "waiting room",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 5,
+      "action": "They step through into a waiting room that is their own living room copied in a line forever. In every copy a Rick is already sitting, pretending he just got there.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "Why do they all have your face?"
+        },
+        {
+          "speaker": "rick",
+          "line": "Because I'm early. I'm always early. That's the opposite of a problem."
+        }
+      ],
+      "keyframe_prompt": "They step through into a waiting room that is their own living room copied in a line forever. In every copy a Rick is already sitting, pretending he just got there. The background is a fully drawn waiting room, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThey step through into a waiting room that is their own living room copied in a line forever. In every copy a Rick is already sitting, pretending he just got there.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"Why do they all have your face?\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Because I'm early. I'm always early. That's the opposite of a problem.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a3",
+      "location": "waiting room",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 5,
+      "action": "Morty sits in the single empty chair. Rick stays standing beside it, portal gun pointed at the floor, refusing the chair next to Morty.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "There's a chair."
+        },
+        {
+          "speaker": "rick",
+          "line": "Chairs are for people who are staying. I'm a corridor."
+        }
+      ],
+      "keyframe_prompt": "Morty sits in the single empty chair. Rick stays standing beside it, portal gun pointed at the floor, refusing the chair next to Morty. The background is a fully drawn waiting room, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nMorty sits in the single empty chair. Rick stays standing beside it, portal gun pointed at the floor, refusing the chair next to Morty.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"There's a chair.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Chairs are for people who are staying. I'm a corridor.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a4",
+      "location": "waiting room",
+      "characters": [
+        "rick",
+        "morty"
+      ],
+      "seconds": 5,
+      "action": "A door at the far end opens a crack and a paper sign slides out that reads SAY WHY YOU CAME. Rick burps at the sign. The door shuts.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "We came because the door was there."
+        },
+        {
+          "speaker": "morty",
+          "line": "It says why. It doesn't say a place."
+        }
+      ],
+      "keyframe_prompt": "A door at the far end opens a crack and a paper sign slides out that reads SAY WHY YOU CAME. Rick burps at the sign. The door shuts. The background is a fully drawn waiting room, with furniture and walls, not a plain grey backdrop. In frame: rick and morty.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nA door at the far end opens a crack and a paper sign slides out that reads SAY WHY YOU CAME. Rick burps at the sign. The door shuts.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"We came because the door was there.\"\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"It says why. It doesn't say a place.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a5",
+      "location": "waiting room",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 5,
+      "action": "The other Ricks are gone. Two chairs remain. Morty looks at Rick and does not look away. The portal gun in Rick's hand has no swirl. It is dead.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "You didn't want me to go in alone."
+        },
+        {
+          "speaker": "rick",
+          "line": "I didn't want you to come back worse. That's not the same sentence. Don't combine them."
+        }
+      ],
+      "keyframe_prompt": "The other Ricks are gone. Two chairs remain. Morty looks at Rick and does not look away. The portal gun in Rick's hand has no swirl. It is dead. The background is a fully drawn waiting room, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThe other Ricks are gone. Two chairs remain. Morty looks at Rick and does not look away. The portal gun in Rick's hand has no swirl. It is dead.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"You didn't want me to go in alone.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"I didn't want you to come back worse. That's not the same sentence. Don't combine them.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "r1",
+      "location": "garage",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 5,
+      "action": "The portal dumps them onto the garage floor. Morty's phone buzzes APPOINTMENT ENDED. Rick is already reaching for a wrench on the bench.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "We missed it."
+        },
+        {
+          "speaker": "rick",
+          "line": "We attended a different one. I'm counting it."
+        }
+      ],
+      "keyframe_prompt": "The portal dumps them onto the garage floor. Morty's phone buzzes APPOINTMENT ENDED. Rick is already reaching for a wrench on the bench. The background is a fully drawn garage, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThe portal dumps them onto the garage floor. Morty's phone buzzes APPOINTMENT ENDED. Rick is already reaching for a wrench on the bench.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"We missed it.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"We attended a different one. I'm counting it.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "tag",
+      "location": "garage",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 5,
+      "action": "The portal gun coughs and one waiting-room chair drops onto the workbench between them. Morty looks at the chair. Rick looks at the wrench.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "That's the chair."
+        },
+        {
+          "speaker": "rick",
+          "line": "It's a chair. Chairs don't mean things. Hand me the wrench."
+        }
+      ],
+      "keyframe_prompt": "The portal gun coughs and one waiting-room chair drops onto the workbench between them. Morty looks at the chair. Rick looks at the wrench. The background is a fully drawn garage, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThe portal gun coughs and one waiting-room chair drops onto the workbench between them. Morty looks at the chair. Rick looks at the wrench.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"That's the chair.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"It's a chair. Chairs don't mean things. Hand me the wrench.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    }
+  ]
+}

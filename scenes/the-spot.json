@@ -1,0 +1,352 @@
+{
+  "title": "The Spot",
+  "slug": "the-spot",
+  "backend": "local",
+  "width": 864,
+  "height": 480,
+  "seed": 44,
+  "style_block": "2D American adult animated sitcom frame, flat cel colors, thick clean black outlines, hard-edged shadow shapes, limited flat palette, no gradients, no texture, no 3D, no photorealism, cutout-style character animation, big white eyes with small black pupils.",
+  "premise": "Rick parks the ship in the house so he never has to wait, or admit Jerry was right about anything. The ship only answers to Jerry being right. Rick would rather sleep under it.",
+  "characters": {
+    "morty": {
+      "sheet": "sheets/morty.png",
+      "sheet_prompt": "Full-body front view of Morty Smith, centered, standing, plain flat grey background. Short teenage boy with an oversized round head and a small body. Brown hair in a flat bowl cut with a tiny cowlick. Huge circular white eyes, tiny black pupils, small nose, small worried mouth. Bright yellow short-sleeve t-shirt, blue pants, white sneakers. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Morty is the short boy: oversized round head, small body, brown bowl-cut hair with a flat top and a tiny cowlick, huge circular white eyes with tiny pupils, a small nose, a worried mouth, a bright yellow short-sleeve t-shirt, blue pants, white sneakers.",
+      "voice": "nervous, voice cracking, apologizing for asking",
+      "negative": "photorealistic, 3d, adult, tall, spiky hair, black hair, lab coat, text, watermark, chibi sticker, gradient shading"
+    },
+    "rick": {
+      "sheet": "sheets/rick.png",
+      "sheet_prompt": "Full-body front view of Rick Sanchez, centered, standing, plain flat grey background. Very tall and thin. Yellow-tan skin. Wild spiky light-blue hair: bald crown, spikes around the sides and back, one long thin spit-curl hanging onto the forehead. Thick single unibrow. Heavy half-closed eyelids, small black pupils in large white eyes. A visible string of drool from the mouth. Open white lab coat over a light-blue collared shirt, not a black shirt and not a teal V-neck. Brown trousers, black belt, black shoes. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Rick is the tall thin older man: wild spiky light-blue hair with a bald crown and one long spit-curl on the forehead, a thick unibrow, half-closed eyelids, a string of drool, an open white lab coat over a light-blue collared shirt, brown pants, a black belt, black shoes. Not a black shirt. Not a teal collar. Not soft cloud-shaped hair.",
+      "voice": "raspy, contemptuous, talking too fast, with a wet burp inside the sentence",
+      "negative": "photorealistic, 3d, einstein, doc brown, black shirt, black turtleneck, teal trim, teal collar, soft painterly hair, brown hair, beard, glasses, text, watermark, yellow shirt"
+    },
+    "jerry": {
+      "sheet": "sheets/jerry.png",
+      "sheet_prompt": "Full-body front view of Jerry Smith, centered, standing, plain flat grey background. Average adult man, yellow-tan skin, dark brown hair with a side part, clean-shaven long face, dimples, worried polite smile. Dark green short-sleeve shirt with a single horizontal brown and beige stripe across the chest, light blue pants, black shoes. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Jerry is the average adult man: dark brown hair with a side part, clean-shaven long face, dimples, a dark green shirt with one brown-and-beige stripe across the chest, light blue pants, black shoes. Not a lab coat. Not blonde. Not a yellow shirt.",
+      "voice": "eager, nasal, trying to sound reasonable, laughs in the wrong place",
+      "negative": "photorealistic, 3d, lab coat, blonde hair, yellow shirt, spiky hair, beard, muscular, text, watermark, gradient shading"
+    },
+    "beth": {
+      "sheet": "sheets/beth.png",
+      "sheet_prompt": "Full-body front view of Beth Smith, centered, standing, plain flat grey background. Adult woman, yellow-tan skin, shoulder-length straight blonde hair, tired sharp face, small nose, large white eyes with small black pupils. Red short-sleeve collared shirt, blue pants, white shoes. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Beth is the adult woman: shoulder-length blonde hair, tired sharp face, yellow-tan skin, a red collared shirt, blue pants, white shoes. Not a lab coat. Not a yellow shirt. Not a pink tank top.",
+      "voice": "flat, tired, adult, already disappointed, does not raise her voice",
+      "negative": "photorealistic, 3d, lab coat, yellow shirt, pink tank top, orange hair, child, spiky blue hair, text, watermark, gradient shading"
+    },
+    "summer": {
+      "sheet": "sheets/summer.png",
+      "sheet_prompt": "Full-body front view of Summer Smith, centered, standing, plain flat grey background. Teenage girl, yellow-tan skin, oval head, pointed nose, no long eyelashes, orange hair pulled into a high ponytail. Magenta tank top, white capri pants, black slip-on shoes. Flat cel-shaded 2D television animation, thick black outlines, no gradients.",
+      "lock": "Summer is the teenage girl: orange hair in a high ponytail, oval head, pointed nose, no long eyelashes, a magenta tank top, white capri pants, black slip-on shoes. Not a yellow shirt. Not blonde. Not a lab coat.",
+      "voice": "bored, dry, teenage, one flat sentence, not excited",
+      "negative": "photorealistic, 3d, lab coat, yellow shirt, blonde hair, blue spiky hair, long eyelashes, child, text, watermark, gradient shading"
+    }
+  },
+  "shots": [
+    {
+      "id": "co1",
+      "location": "cramped green-lit spacecraft cockpit with two seats and a windshield, not a car",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "Rick is driving a small green-metal spacecraft straight at the Smith house. Morty is braced in the passenger seat, one hand on the dash.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "Rick, that's the house."
+        },
+        {
+          "speaker": "rick",
+          "line": "It's a gap. Burp. Gaps don't have mortgages."
+        }
+      ],
+      "keyframe_prompt": "Rick is driving a small green-metal spacecraft straight at the Smith house. Morty is braced in the passenger seat, one hand on the dash. The background is a fully drawn cramped green-lit spacecraft cockpit with two seats and a windshield, not a car, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nRick is driving a small green-metal spacecraft straight at the Smith house. Morty is braced in the passenger seat, one hand on the dash.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"Rick, that's the house.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"It's a gap. Burp. Gaps don't have mortgages.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a1",
+      "location": "suburban living room with a beige couch, a television, carpet, and a front door",
+      "characters": [
+        "jerry",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "The spacecraft is parked in the living room between the couch and the television. Jerry stands holding a remote, blocked by the hull. Rick is half out of the hatch.",
+      "dialogue": [
+        {
+          "speaker": "jerry",
+          "line": "The TV is behind your bumper."
+        },
+        {
+          "speaker": "rick",
+          "line": "Then watch the bumper."
+        }
+      ],
+      "keyframe_prompt": "The spacecraft is parked in the living room between the couch and the television. Jerry stands holding a remote, blocked by the hull. Rick is half out of the hatch. The background is a fully drawn suburban living room with a beige couch, a television, carpet, and a front door, with furniture and walls, not a plain grey backdrop. In frame: jerry and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThe spacecraft is parked in the living room between the couch and the television. Jerry stands holding a remote, blocked by the hull. Rick is half out of the hatch.\n\njerry, eager, nasal, trying to sound reasonable, laughs in the wrong place, says: \"The TV is behind your bumper.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Then watch the bumper.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a2",
+      "location": "suburban kitchen with a round table, a fridge, and a doorway to the living room",
+      "characters": [
+        "beth",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "Beth sits at the kitchen table and does not look up. Through the doorway the spacecraft is visible in the living room. Rick leans on the doorframe.",
+      "dialogue": [
+        {
+          "speaker": "beth",
+          "line": "The neighbors can see it."
+        },
+        {
+          "speaker": "rick",
+          "line": "Neighbors are weather."
+        }
+      ],
+      "keyframe_prompt": "Beth sits at the kitchen table and does not look up. Through the doorway the spacecraft is visible in the living room. Rick leans on the doorframe. The background is a fully drawn suburban kitchen with a round table, a fridge, and a doorway to the living room, with furniture and walls, not a plain grey backdrop. In frame: beth and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nBeth sits at the kitchen table and does not look up. Through the doorway the spacecraft is visible in the living room. Rick leans on the doorframe.\n\nbeth, flat, tired, adult, already disappointed, does not raise her voice, says: \"The neighbors can see it.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Neighbors are weather.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a3",
+      "location": "suburban kitchen with a round table, a fridge, and a doorway to the living room",
+      "characters": [
+        "summer",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "Summer sits on the kitchen counter filming the spacecraft through the doorway. Rick reaches for her phone. She holds it out of reach.",
+      "dialogue": [
+        {
+          "speaker": "summer",
+          "line": "Somebody commented therapy."
+        },
+        {
+          "speaker": "rick",
+          "line": "Delete the neighbor."
+        }
+      ],
+      "keyframe_prompt": "Summer sits on the kitchen counter filming the spacecraft through the doorway. Rick reaches for her phone. She holds it out of reach. The background is a fully drawn suburban kitchen with a round table, a fridge, and a doorway to the living room, with furniture and walls, not a plain grey backdrop. In frame: summer and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nSummer sits on the kitchen counter filming the spacecraft through the doorway. Rick reaches for her phone. She holds it out of reach.\n\nsummer, bored, dry, teenage, one flat sentence, not excited, says: \"Somebody commented therapy.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Delete the neighbor.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a4",
+      "location": "suburban living room with a beige couch, a television, carpet, and a front door",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "A huge white spacecraft hull blocks the staircase from wall to wall. Morty cannot step past the metal. Rick stands on top of the hull. No pole, no column.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "I can't get upstairs."
+        },
+        {
+          "speaker": "rick",
+          "line": "Sleep in the ship. It's deductible."
+        }
+      ],
+      "keyframe_prompt": "A huge white spacecraft hull blocks the staircase from wall to wall. Morty cannot step past the metal. Rick stands on top of the hull. No pole, no column. The background is a fully drawn suburban living room with a beige couch, a television, carpet, and a front door, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nA huge white spacecraft hull blocks the staircase from wall to wall. Morty cannot step past the metal. Rick stands on top of the hull. No pole, no column.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"I can't get upstairs.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Sleep in the ship. It's deductible.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a5",
+      "location": "suburban kitchen with a round table, a fridge, and a doorway to the living room",
+      "characters": [
+        "jerry"
+      ],
+      "seconds": 12,
+      "action": "Jerry stands at the open fridge holding up a milk carton like a trophy. He is delighted. The spacecraft is not in this room.",
+      "dialogue": [
+        {
+          "speaker": "jerry",
+          "line": "Expired. I called it Tuesday."
+        }
+      ],
+      "keyframe_prompt": "Jerry stands at the open fridge holding up a milk carton like a trophy. He is delighted. The spacecraft is not in this room. The background is a fully drawn suburban kitchen with a round table, a fridge, and a doorway to the living room, with furniture and walls, not a plain grey backdrop. In frame: jerry.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nJerry stands at the open fridge holding up a milk carton like a trophy. He is delighted. The spacecraft is not in this room.\n\njerry, eager, nasal, trying to sound reasonable, laughs in the wrong place, says: \"Expired. I called it Tuesday.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a6",
+      "location": "suburban living room with a beige couch, a television, carpet, and a front door",
+      "characters": [
+        "rick",
+        "jerry"
+      ],
+      "seconds": 14,
+      "action": "The huge white spacecraft fills the living room and its lights flash. Rick flinches beside it. Only Jerry, in the dark green striped shirt, stands in the kitchen doorway holding milk. No boy. No second Jerry.",
+      "dialogue": [
+        {
+          "speaker": "rick",
+          "line": "Stop being right."
+        },
+        {
+          "speaker": "jerry",
+          "line": "I didn't do it on purpose."
+        }
+      ],
+      "keyframe_prompt": "The huge white spacecraft fills the living room and its lights flash. Rick flinches beside it. Only Jerry, in the dark green striped shirt, stands in the kitchen doorway holding milk. No boy. No second Jerry. The background is a fully drawn suburban living room with a beige couch, a television, carpet, and a front door, with furniture and walls, not a plain grey backdrop. In frame: rick and jerry.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThe huge white spacecraft fills the living room and its lights flash. Rick flinches beside it. Only Jerry, in the dark green striped shirt, stands in the kitchen doorway holding milk. No boy. No second Jerry.\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Stop being right.\"\n\njerry, eager, nasal, trying to sound reasonable, laughs in the wrong place, says: \"I didn't do it on purpose.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a7",
+      "location": "small teenage bedroom with one bed, posters, and a window",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "A metal spacecraft nose, not a person, lies across Morty's bed. The bed is empty. Morty stands at the foot of the bed. Rick stands beside the metal nose.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "It's on my pillow."
+        },
+        {
+          "speaker": "rick",
+          "line": "Pillows are soft parking. You're welcome."
+        }
+      ],
+      "keyframe_prompt": "A metal spacecraft nose, not a person, lies across Morty's bed. The bed is empty. Morty stands at the foot of the bed. Rick stands beside the metal nose. The background is a fully drawn small teenage bedroom with one bed, posters, and a window, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nA metal spacecraft nose, not a person, lies across Morty's bed. The bed is empty. Morty stands at the foot of the bed. Rick stands beside the metal nose.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"It's on my pillow.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Pillows are soft parking. You're welcome.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a8",
+      "location": "small teenage bedroom with one bed, posters, and a window",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 10,
+      "action": "Morty looks up at Rick and does not finish the sentence. Rick is already turning away inside the hatch. The bed is still under the hull.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "Can you just\u2014"
+        },
+        {
+          "speaker": "rick",
+          "line": "No."
+        }
+      ],
+      "keyframe_prompt": "Morty looks up at Rick and does not finish the sentence. Rick is already turning away inside the hatch. The bed is still under the hull. The background is a fully drawn small teenage bedroom with one bed, posters, and a window, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nMorty looks up at Rick and does not finish the sentence. Rick is already turning away inside the hatch. The bed is still under the hull.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"Can you just\u2014\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"No.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a9",
+      "location": "suburban kitchen with a round table, a fridge, and a doorway to the living room",
+      "characters": [
+        "beth",
+        "jerry"
+      ],
+      "seconds": 14,
+      "action": "Beth stands in the kitchen doorway. Jerry is at the table holding the milk carton up for her to admire. She is not admiring it.",
+      "dialogue": [
+        {
+          "speaker": "beth",
+          "line": "Put the milk down."
+        },
+        {
+          "speaker": "jerry",
+          "line": "The milk parked a spaceship."
+        }
+      ],
+      "keyframe_prompt": "Beth stands in the kitchen doorway. Jerry is at the table holding the milk carton up for her to admire. She is not admiring it. The background is a fully drawn suburban kitchen with a round table, a fridge, and a doorway to the living room, with furniture and walls, not a plain grey backdrop. In frame: beth and jerry.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nBeth stands in the kitchen doorway. Jerry is at the table holding the milk carton up for her to admire. She is not admiring it.\n\nbeth, flat, tired, adult, already disappointed, does not raise her voice, says: \"Put the milk down.\"\n\njerry, eager, nasal, trying to sound reasonable, laughs in the wrong place, says: \"The milk parked a spaceship.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a10",
+      "location": "suburban living room with a beige couch, a television, carpet, and a front door",
+      "characters": [
+        "summer",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "Summer stands in front of the parked spacecraft, phone lowered, unimpressed. Rick sits on the hull with his arms folded.",
+      "dialogue": [
+        {
+          "speaker": "summer",
+          "line": "We're eating cereal in a parking lot."
+        },
+        {
+          "speaker": "rick",
+          "line": "Cereal was already a mistake."
+        }
+      ],
+      "keyframe_prompt": "Summer stands in front of the parked spacecraft, phone lowered, unimpressed. Rick sits on the hull with his arms folded. The background is a fully drawn suburban living room with a beige couch, a television, carpet, and a front door, with furniture and walls, not a plain grey backdrop. In frame: summer and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nSummer stands in front of the parked spacecraft, phone lowered, unimpressed. Rick sits on the hull with his arms folded.\n\nsummer, bored, dry, teenage, one flat sentence, not excited, says: \"We're eating cereal in a parking lot.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Cereal was already a mistake.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a11",
+      "location": "small teenage bedroom with one bed, posters, and a window",
+      "characters": [
+        "morty",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "Rick sits on the bedroom floor because the craft will not move. Morty sits on the edge of the bed, under the hull, feet not touching the floor.",
+      "dialogue": [
+        {
+          "speaker": "morty",
+          "line": "You can whisper it."
+        },
+        {
+          "speaker": "rick",
+          "line": "Burp. I'm not sponsoring dairy."
+        }
+      ],
+      "keyframe_prompt": "Rick sits on the bedroom floor because the craft will not move. Morty sits on the edge of the bed, under the hull, feet not touching the floor. The background is a fully drawn small teenage bedroom with one bed, posters, and a window, with furniture and walls, not a plain grey backdrop. In frame: morty and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nRick sits on the bedroom floor because the craft will not move. Morty sits on the edge of the bed, under the hull, feet not touching the floor.\n\nmorty, nervous, voice cracking, apologizing for asking, says: \"You can whisper it.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Burp. I'm not sponsoring dairy.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "a12",
+      "location": "suburban kitchen with a round table, a fridge, and a doorway to the living room",
+      "characters": [
+        "jerry",
+        "rick"
+      ],
+      "seconds": 14,
+      "action": "Morning. Jerry has set the milk carton on the table like a reserved sign. He is proud. Rick walks past and does not look at him.",
+      "dialogue": [
+        {
+          "speaker": "jerry",
+          "line": "I saved you a spot."
+        },
+        {
+          "speaker": "rick",
+          "line": "It's my spot. You curdled next to it."
+        }
+      ],
+      "keyframe_prompt": "Morning. Jerry has set the milk carton on the table like a reserved sign. He is proud. Rick walks past and does not look at him. The background is a fully drawn suburban kitchen with a round table, a fridge, and a doorway to the living room, with furniture and walls, not a plain grey backdrop. In frame: jerry and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nMorning. Jerry has set the milk carton on the table like a reserved sign. He is proud. Rick walks past and does not look at him.\n\njerry, eager, nasal, trying to sound reasonable, laughs in the wrong place, says: \"I saved you a spot.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"It's my spot. You curdled next to it.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    },
+    {
+      "id": "tag",
+      "location": "suburban living room with a beige couch, a television, carpet, and a front door",
+      "characters": [
+        "summer",
+        "rick"
+      ],
+      "seconds": 12,
+      "action": "The same huge white spacecraft is parked in the living room, the biggest object there, one light flashing. Jerry in the green striped shirt waves from the kitchen doorway. Summer films the ship. Rick stands beside her and refuses to look at it.",
+      "dialogue": [
+        {
+          "speaker": "summer",
+          "line": "He's waving at it."
+        },
+        {
+          "speaker": "rick",
+          "line": "Don't wave back. It learns."
+        }
+      ],
+      "keyframe_prompt": "The same huge white spacecraft is parked in the living room, the biggest object there, one light flashing. Jerry in the green striped shirt waves from the kitchen doorway. Summer films the ship. Rick stands beside her and refuses to look at it. The background is a fully drawn suburban living room with a beige couch, a television, carpet, and a front door, with furniture and walls, not a plain grey backdrop. In frame: summer and rick.",
+      "motion_prompt": "Animate this still. Keep each character's design identical to the still: same hair silhouette, face, and clothes. Flat 2D cel animation. Do not restyle anyone and do not add a new person.\n\nThe same huge white spacecraft is parked in the living room, the biggest object there, one light flashing. Jerry in the green striped shirt waves from the kitchen doorway. Summer films the ship. Rick stands beside her and refuses to look at it.\n\nsummer, bored, dry, teenage, one flat sentence, not excited, says: \"He's waving at it.\"\n\nrick, raspy, contemptuous, talking too fast, with a wet burp inside the sentence, says: \"Don't wave back. It learns.\"\n\nMouths move on the spoken lines. Hands and props move only as the action describes. The camera does not wander off to a new place."
+    }
+  ]
+}

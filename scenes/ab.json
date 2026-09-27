@@ -1,0 +1,18 @@
+{
+  "title": "A/B Model Comparison",
+  "backend": "local",
+  "width": 608,
+  "height": 352,
+  "seed": 5150,
+  "style_block": "2D animated adult TV cartoon, flat cel colors, clean thick black outlines.",
+  "characters": {},
+  "shots": [
+    {
+      "id": "s1_garage",
+      "characters": [],
+      "seconds": 5,
+      "keyframe_prompt": "Garage lab, Rick and Morty, keyframe_b.png",
+      "motion_prompt": "Same keyframe and prompt rendered by both video models."
+    }
+  ]
+}
