@@ -43,6 +43,22 @@ class LLMError(RuntimeError):
     pass
 
 
+def _message_text(resp):
+    """Text from a chat-completion response.
+
+    A reasoning model can spend its whole max_tokens budget in
+    `reasoning_content` and return an EMPTY `content` string (observed on
+    K2-Horizon-MoVA-36B: finish_reason=length, content="", reasoning=160 chars).
+    Reading `content` alone then yields "" even on HTTP 200, which is what made
+    the writers' room look like it had run while producing nothing.
+    """
+    msg = (resp.get("choices") or [{}])[0].get("message") or {}
+    text = msg.get("content") or ""
+    if not text.strip():
+        text = msg.get("reasoning_content") or ""
+    return text
+
+
 def _post(url, payload, headers, timeout=DEFAULT_TIMEOUT):
     data = json.dumps(payload).encode()
     req = urllib.request.Request(url, data=data, headers={
@@ -75,8 +91,7 @@ def complete(prompt, system=None, model=None, json_mode=False, temperature=None)
         if temperature is not None:
             payload["temperature"] = temperature
         resp = _post(base.rstrip("/") + "/chat/completions", payload, {})
-        text = (resp.get("choices") or [{}])[0].get("message", {}).get("content") or ""
-        return text, resp.get("usage", {})
+        return _message_text(resp), resp.get("usage", {})
 
     # OpenRouter fallback. Kept for when no local proxy is running; note that
     # this path costs money and needs OPENROUTER_API_KEY in .env.
@@ -87,8 +102,7 @@ def complete(prompt, system=None, model=None, json_mode=False, temperature=None)
     if temperature is not None:
         payload["temperature"] = temperature
     resp = openrouter.request(openrouter.CHAT_API, openrouter.api_key(), payload)
-    text = (resp.get("choices") or [{}])[0].get("message", {}).get("content") or ""
-    return text, resp.get("usage", {})
+    return _message_text(resp), resp.get("usage", {})
 
 
 def available():
